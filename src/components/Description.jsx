@@ -4,7 +4,7 @@ function Description() {
   return (
     <div className=' w-full h-[700px] bg-white space-x-20 '>
       <div className="heading flex justify-center mt-[220px]  ">
-        <h1 className=' shadow-xl p-4 tracking-widest font-sans font-extrabold text-[70px] text-black rounded-md'>What is <span className=' text-blue-600'>III</span></h1>
+        <h1 className=' shadow-xl p-4 tracking-widest font-sans font-extrabold text-[70px] text-black rounded-md'>What is <span className=' text-blue-600'>IIIF</span></h1>
       </div>
       <div className=' flex gap-8 mt-20'>
         <div className=" flex items-center text w-[1100px] font-semibold text-xl text-start ">

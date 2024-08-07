@@ -4,10 +4,10 @@ function Footer() {
   return (
     <div className=' h-[400px] bg-gradient-to-r from-blue-100 to-blue-200 flex justify-center gap-14' >
       <div className="logo">
-        <img src="./incub-logo.png" width={'360px'} className=' ml-[-140px] mt-[40px]' alt="" />
+        <img src="./incub-logo.png" width={'360px'} className=' ml-[-120px] mt-[40px]' alt="" />
       </div>
-      <div className="contact ml-[40px] w-[350px] mt-[30px] leading-10 font-sans text-lg text-blue-600">
-        <span className=' text-xl text-blue-800 font-bold'>Contact Us</span>
+      <div className="contact ml-[10px] w-[350px] mt-[30px] leading-10 font-sans text-lg text-blue-600">
+        <span className=' text-2xl  text-blue-800 font-bold'>Contact Us</span>
         <br />
         Physical Address
         292 Main Street | MIT Bldg. E38
@@ -22,8 +22,8 @@ function Footer() {
         Bldg. E38 – Mailroom 349
         Cambridge, MA 02142
       </div>
-      <div className="about ml-[40px] w-[350px] mt-[30px] leading-10 font-sans text-lg text-blue-600">
-      <span className=' text-xl text-blue-800 font-bold'>This Website</span>
+      <div className="about ml-[90px] w-[350px] mt-[30px] leading-10 font-sans text-lg text-blue-600">
+      <span className=' text-2xl text-blue-800 font-bold'>This Website</span>
       <br />
 
       III is Powered By

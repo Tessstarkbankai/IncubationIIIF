@@ -12,6 +12,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Companies from './components/Companies'
 import About from './components/Routes/About'
 import MissionVision from './components/Routes/MissionVision'
+import GoveningCouncil from './components/Routes/GoveningCouncil'
+import Advisory from './components/Routes/Advisory'
+import Team from './components/Routes/Team'
+import Recognition from './components/Routes/Recognition'
 
 const App = () => {
   return (
@@ -33,6 +37,14 @@ const App = () => {
           }/>
           <Route path='/AboutIIF' element={<><Navbar/><About /><Footer/></>} />
           <Route path='/MissionVision' element={<><Navbar/><MissionVision /><Footer/></>} />
+          <Route path='/GoveningCouncil' element={<><Navbar/><GoveningCouncil /><Footer/></>} />
+          <Route path='/Advisory' element={<><Navbar/><Advisory /><Footer/></>} />
+          <Route path='/Team' element={<><Navbar/><Team /><Footer/></>} />
+          <Route path='/Recognition' element={<><Navbar/><Recognition /><Footer/></>} />
+
+
+
+
 
         </Routes>
       </BrowserRouter>

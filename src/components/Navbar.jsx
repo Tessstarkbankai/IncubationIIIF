@@ -31,10 +31,10 @@ function Navbar() {
 
                 <Link to='/AboutIIF' className='list  hover:text-blue-600 mb-2'>About IIIF</Link>
                 <Link to='/MissionVision' className=' list  hover:text-blue-600 mb-2   '>Mission & Vision</Link>
-                <li className=' list  hover:text-blue-600 mb-2 '>Governing Council</li>
-                <li className=' list  hover:text-blue-600 mb-2 '>Advisory Board team</li>
-                <li className=' list  hover:text-blue-600 mb-2 '>Team</li>
-                <li className=' list  hover:text-blue-600 mb-2 '>Recognization</li>
+                <Link to='/GoveningCouncil' className=' list  hover:text-blue-600 mb-2 '>Governing Council</Link>
+                <Link to='/Advisory' className=' list  hover:text-blue-600 mb-2 '>Advisory Board team</Link>
+                <Link to='/Team' className=' list  hover:text-blue-600 mb-2 '>Team</Link>
+                <Link to='/Recognition' className=' list  hover:text-blue-600 mb-2 '>Recognization</Link>
 
               </NavigationMenuContent>
             </NavigationMenuItem>

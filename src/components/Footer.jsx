@@ -30,10 +30,7 @@ function Footer() {
         <img src="logo_inv.svg" width={'230px'} className=' mt-4' alt="" />
         <br />
         <br />
-        Mailing Address
-        400 Main Street
-        Bldg. E38 – Mailroom 349
-        Cambridge, MA 02142
+        <h1 className=' text-2xl text-blue-800'>Handles</h1>
       </div>
     </div>
   )

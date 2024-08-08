@@ -1,10 +1,18 @@
 import React from 'react'
 import './Hero.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
 function GridComponent() {
+  useEffect(() => {
+    Aos.init();
+ }, [])
   return (
-    <div className="grid-container">
-      <div className="grid-item">
+  
+    <div className="grid-container" data-aos="zoom-in-up" data-aos-easing="linear"
+    data-aos-duration="600" >
+      <div className="grid-item" >
         <div className="icon">📁</div>
         <h3>STRUCTURED MENTORING PROGRAM</h3>
         <p>Mentoring increases companies odds of success. We understand the journey and advise accordingly.</p>

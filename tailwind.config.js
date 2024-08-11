@@ -20,6 +20,12 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
+      colors: {
+        customblack: 'rgba(0, 0, 0,.7)',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('./SubSec.png')",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

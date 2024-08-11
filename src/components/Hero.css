@@ -5,6 +5,13 @@
   left: 0;
   background-color: rgba(0, 0, 0,.7);
 }
+.overlayB{
+  position:  absolute;
+  width: 100%;
+  height: 246px;
+  left: 0;
+  background-color: rgba(0, 0, 0,.7);
+}
 
 .grid-container {
   display: grid;

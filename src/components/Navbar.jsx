@@ -34,7 +34,7 @@ function Navbar() {
                 <Link to='/GoveningCouncil' className=' list  hover:text-blue-600 mb-2 '>Governing Council</Link>
                 <Link to='/Advisory' className=' list  hover:text-blue-600 mb-2 '>Advisory Board team</Link>
                 <Link to='/Team' className=' list  hover:text-blue-600 mb-2 '>Team</Link>
-                <Link to='/Recognition' className=' list  hover:text-blue-600 mb-2 '>Recognization</Link>
+                <Link to='/Recognition' className=' list  hover:text-blue-600 mb-2 '>Recognition</Link>
 
               </NavigationMenuContent>
             </NavigationMenuItem>

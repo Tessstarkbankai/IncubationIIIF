@@ -10,7 +10,7 @@ function GridComponent() {
  }, [])
   return (
   
-    <div className="grid-container" data-aos="zoom-in-up" data-aos-easing="linear"
+    <div className="grid-container sm:mt-0 mt-12" data-aos="zoom-in-up" data-aos-easing="linear"
     data-aos-duration="600" >
       <div className="grid-item" >
         <div className="icon">📁</div>

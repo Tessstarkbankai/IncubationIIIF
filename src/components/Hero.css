@@ -3,8 +3,9 @@
   width: 100%;
   height: 700px;
   left: 0;
-  background-color: rgba(0, 0, 0,.7);
+  /* background-color: rgba(0, 0, 0,.7); */
 }
+
 .overlayB{
   position:  absolute;
   width: 100%;
@@ -44,4 +45,16 @@ h3 {
 p {
   font-size: 14px;
   margin: 0;
+}
+@media (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-item {
+    flex: 1;
+    padding: 1rem;
+    /* Adjust other styles as needed */
+  }
 }

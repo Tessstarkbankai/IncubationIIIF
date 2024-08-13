@@ -21,7 +21,7 @@ function Navbar() {
       <div className="logo ml-[70px] ">
        <Link to='/'><img src="./incub-logo.png" alt="logo" className=' cursor-pointer mt-2 h-[130px] w-[200px] ' /></Link>
       </div>
-      <div className="nav-items flex list-none gap-10 mr-[70px] font-bold hover:cursor-pointer text-blue-400  text-2xl font-sans cursor-pointer ">
+      <div className="hidden sm:flex nav-items  list-none gap-10 mr-[70px] font-bold hover:cursor-pointer text-blue-400  text-2xl font-sans cursor-pointer ">
 
         <NavigationMenu>
           <NavigationMenuList>

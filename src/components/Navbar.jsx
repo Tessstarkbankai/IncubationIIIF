@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import {
   NavigationMenu,
@@ -12,15 +12,107 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Link } from 'react-router-dom'
 
+import { Button } from "@/components/ui/button"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+
+
 
 
 function Navbar() {
+   
+
   return (
     <div className=' flex justify-between items-center bg-gradient-to-r from-blue-100 to-blue-200
  border-b-4 h-[120px]'>
-      <div className="logo ml-[70px] ">
-       <Link to='/'><img src="./incub-logo.png" alt="logo" className=' cursor-pointer mt-2 h-[130px] w-[200px] ' /></Link>
+      <div className="logo ml-4 sm:ml-[70px] ">
+        <Link to='/'><img src="./incub-logo.png" alt="logo" className=' cursor-pointer mt-2 sm:h-[130px] h-[100px] sm:w-[200px] w-[150px] ' /></Link>
       </div>
+      <div className=' flex sm:hidden mr-10'>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+             <svg  className=' mt-3' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="50" viewBox="0 0 48 48">
+              <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1)" d="M43,15H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,14.1,44.1,15,43,15z"></path><linearGradient id="9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2" x1="12.066" x2="34.891" y1="12.066" y2="34.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2)" d="M43,27H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,26.1,44.1,27,43,27z"></path><linearGradient id="9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3" x1="12.066" x2="34.891" y1="24.066" y2="46.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3)" d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
+            </svg>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="w-56">
+
+            <DropdownMenuGroup>
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>About</DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    <DropdownMenuItem><Link to='/AboutIIF' className=' hover:text-blue-600 '>About IIIF</Link></DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/MissionVision' className=' hover:text-blue-600   '>Mission & Vision</Link></DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/GoveningCouncil' className=' hover:text-blue-600  '>Governing Council</Link> </DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/Advisory' className=' hover:text-blue-600  '>Advisory Board team</Link></DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/Team' className='  hover:text-blue-600  '>Team</Link></DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/Recognition' className=' hover:text-blue-600 '>Recognition</Link></DropdownMenuItem>
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>Program</DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    <DropdownMenuItem>Faculty Devlopment</DropdownMenuItem>
+                    <DropdownMenuItem>Women Development</DropdownMenuItem>
+                    <DropdownMenuItem>Tech Development</DropdownMenuItem>
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>Scheme</DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    <DropdownMenuItem>Devlopment</DropdownMenuItem>
+                    <DropdownMenuItem>Funding</DropdownMenuItem>
+                    <DropdownMenuItem>Growth</DropdownMenuItem>
+                    <DropdownMenuItem>Target</DropdownMenuItem>
+
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>Event</DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    <DropdownMenuItem>Photos</DropdownMenuItem>
+                    <DropdownMenuItem>Videos</DropdownMenuItem>
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+            </DropdownMenuGroup>
+            <DropdownMenuGroup>
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>Empact</DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    <DropdownMenuItem>Patents</DropdownMenuItem>
+                    <DropdownMenuItem>Sucess Stories</DropdownMenuItem>
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+            </DropdownMenuGroup>
+          </DropdownMenuContent>
+        </DropdownMenu>
+
+      </div>
+
+
+
       <div className="hidden sm:flex nav-items  list-none gap-10 mr-[70px] font-bold hover:cursor-pointer text-blue-400  text-2xl font-sans cursor-pointer ">
 
         <NavigationMenu>
@@ -96,7 +188,7 @@ function Navbar() {
 
                 <li className='  list  hover:text-blue-600 mb-2   '>Patent Filled</li>
                 <li className='  list  hover:text-blue-600 mb-2  '>Sucess Stories</li>
-                
+
 
               </NavigationMenuContent>
             </NavigationMenuItem>

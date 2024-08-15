@@ -13,7 +13,7 @@ function Advisory() {
   return (
     <div>
       <SubSection text={"Advisory Board"}/>
-      <div className=' flex justify-center flex-wrap'>
+      <div className=' overflow-hidden flex justify-center flex-wrap'>
       <Card img={Cheema} name={"Mr. HS Cheema"} dept={"Founder Cheema Boilers Limited"}/>
       <Card img={Vasim} name={"Vasim Akram Rana"} dept={"Founder & CTO @ Tech Superior Consulting"}/>
       <Card img={Syris} name={"Dr Syrish Raghuyal"} dept={"Director at Positech International Pvt. Ltd."}/>

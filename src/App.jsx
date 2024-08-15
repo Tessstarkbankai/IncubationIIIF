@@ -16,6 +16,7 @@ import GoveningCouncil from './components/Routes/GoveningCouncil'
 import Advisory from './components/Routes/Advisory'
 import Team from './components/Routes/Team'
 import Recognition from './components/Routes/Recognition'
+import Testemonial from './components/Testemonial'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
               <Navbar />
               <Hero />
               <Description />
+              <Testemonial/>
               <Companies/>
               <CardBig />
               <Services />

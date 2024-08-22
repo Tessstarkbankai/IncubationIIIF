@@ -12,7 +12,7 @@ function Photos() {
   return (
     <>
       <SubSection text={"Photos & Videos"}/>
-    <div className=' px-56 py-24 flex justify-center  flex-wrap gap-5'>
+    <div className=' sm:px-56 sm:py-24 py-12 flex justify-center  flex-wrap gap-5'>
       <Photo image={img1} />
       <Photo image={img2} />
       <Photo image={img1} />

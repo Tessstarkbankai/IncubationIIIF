@@ -11,7 +11,7 @@ function Description() {
     <div className=' w-full sm:h-[700px] h-[600px] bg-white space-x-20 '>
       <div className="heading flex justify-center mt-[220px] " data-aos="fade-down" data-aos-easing="linear"
         data-aos-duration="600" >
-        <h1 className=' mt-8 sm:mt-0 shadow-xl p-3 sm:p-10  sm:tracking-widest font-sans font-extrabold text-3xl sm:text-[70px] text-black rounded-xl'>What is <span className=' text-blue-600'>IIIF</span></h1>
+        <h1 className=' mt-8 sm:mt-0 shadow-xl p-3 sm:p-10  sm:tracking-widest font-sans font-extrabold text-3xl sm:text-[60px] text-gray-600 rounded-lg'>Introducing <span className=' text-blue-600'>IIIF</span></h1>
       </div>
       <div className=' sm:flex gap-8 mt-10 sm:mt-20'>
         <div className=" flex justify-center items-center sm:w-[1100px] w-[90%] font-semibold sm:text-xl text-sm text-start ">

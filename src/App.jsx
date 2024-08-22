@@ -19,6 +19,7 @@ import Recognition from './components/Routes/Recognition'
 import Testemonial from './components/Testemonial'
 import parthSir from './assets/Governing/parth_sir4.jpg'
 import TalhaSir from './assets/Governing/Talha_Sir1.jpg'
+import Photos from './components/Routes/Photos'
 
 
 
@@ -49,6 +50,8 @@ const App = () => {
           <Route path='/Advisory' element={<><Navbar/><Advisory /><Footer/></>} />
           <Route path='/Team' element={<><Navbar/><Team /><Footer/></>} />
           <Route path='/Recognition' element={<><Navbar/><Recognition /><Footer/></>} />
+          <Route path='/Photos' element={<><Navbar/><Photos /><Footer/></>} />
+          
 
 
 

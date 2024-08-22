@@ -173,7 +173,7 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg' >Events</NavigationMenuTrigger>
               <NavigationMenuContent className='  text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <li className=' list  hover:text-blue-600 mb-2   '>Photos</li>
+                <Link to='/Photos' className=' list  hover:text-blue-600 mb-2 '>Photos</Link>
                 <li className='  list  hover:text-blue-600  mb-2 '>Videos</li>
 
 

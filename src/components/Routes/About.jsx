@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import SubSection from '../SubSection'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import about_image from '../../assets/About_image.jpg'
 
 
 function About() {
@@ -14,7 +15,7 @@ function About() {
       <div className=' sm:flex justify-around gap-11 h-full p-[80px]'>
         <div className='' data-aos="fade-right" data-aos-easing="linear"
           data-aos-duration="600">
-          <img className='mb-10 sm:mb-0 sm:w-[4000px] w-[3500px]' src="./about.jpg" alt="" />
+          <img className=' p-2 mb-10 sm:mb-0 sm:w-[4300px] w-[3500px]' src={about_image} alt="" />
         </div>
         <div className='hidden sm:flex '>
           <h2 className=' text-xl text-gray-600' data-aos="fade-left" data-aos-easing="linear"
@@ -27,10 +28,21 @@ function About() {
           <h2 className=' text-lg  text-gray-600' data-aos="zoom-in" data-aos-easing="linear"
             data-aos-duration="600">INVERTIS University aims to cultivate an innovative environment where students and faculty can explore their potential and transform research into real-world solutions. Faculty members actively engage in research and knowledge sharing, while students develop entrepreneurial ventures to address societal challenges.
             Despite significant R&D efforts in cutting-edge areas, the university recognizes the gap between research and commercialization, often due to industry disinterest in futuristic technologies. To bridge this divide, INVERTIS proposes to encourage faculty and students to establish companies and assume leadership roles.
-            
+
           </h2>
         </div>
       </div>
+      <h1 className=' text-xl sm:text-3xl font-extrabold font-sans text-center sm:tracking-widest mb-2 z-10 relative'>Mission & Vision</h1>
+      <div className=' w-[110px] sm:w-[190px] h-1 bg-blue-600 m-auto mb-4 z-10 relative'></div>
+      <div className=' sm:px-[200px] px-[50px] py-[30px] sm:py-[60px]'>
+        <h1 className=' text-3xl text-blue-600 font-bold'>Mission</h1>
+        <h3 className=' text-xl text-gray-600 py-8'>We aim to inspire and equip them to pursue entrepreneurship as a fulfilling career path. Our focus lies in fostering a campus environment that nurtures innovative ideas and empowers students to transform them into sustainable, student-led startups. Through mentorship, workshops, and practical support, we strive to create a thriving entrepreneurial ecosystem that drives economic growth and societal impact. </h3>
+      </div>
+      <div className='sm:px-[200px] px-[50px] py-[20px] sm:py-[10px] pb-11'>
+        <h1 className=' text-3xl text-blue-600 font-bold'>Vision</h1>
+        <h3 className=' text-xl text-gray-600 py-8'>Invertis Innovation and Incubation Foundation is committed to fostering a thriving ecosystem within the campus community that nurtures innovation and empowers startups.</h3>
+      </div>
+      
     </>
   )
 }

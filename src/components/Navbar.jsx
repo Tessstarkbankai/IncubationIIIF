@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import ShimmerButton from "@/components/magicui/shimmer-button";
+
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -55,7 +57,7 @@ function Navbar() {
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
                     <DropdownMenuItem><Link to='/AboutIIF' className=' hover:text-blue-600 '>About IIIF</Link></DropdownMenuItem>
-                    <DropdownMenuItem><Link to='/MissionVision' className=' hover:text-blue-600   '>Mission & Vision</Link></DropdownMenuItem>
+                    {/* <DropdownMenuItem><Link to='/MissionVision' className=' hover:text-blue-600   '>Mission & Vision</Link></DropdownMenuItem> */}
                     <DropdownMenuItem><Link to='/GoveningCouncil' className=' hover:text-blue-600  '>Governing Council</Link> </DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Advisory' className=' hover:text-blue-600  '>Advisory Board team</Link></DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Team' className='  hover:text-blue-600  '>Team</Link></DropdownMenuItem>
@@ -122,7 +124,7 @@ function Navbar() {
               <NavigationMenuContent className=' text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
                 <Link to='/AboutIIF' className='list  hover:text-blue-600 mb-2'>About IIIF</Link>
-                <Link to='/MissionVision' className=' list  hover:text-blue-600 mb-2   '>Mission & Vision</Link>
+                {/* <Link to='/MissionVision' className=' list  hover:text-blue-600 mb-2   '>Mission & Vision</Link> */}
                 <Link to='/GoveningCouncil' className=' list  hover:text-blue-600 mb-2 '>Governing Council</Link>
                 <Link to='/Advisory' className=' list  hover:text-blue-600 mb-2 '>Advisory Board team</Link>
                 <Link to='/Team' className=' list  hover:text-blue-600 mb-2 '>Team</Link>
@@ -171,7 +173,7 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg' >Events</NavigationMenuTrigger>
               <NavigationMenuContent className='  text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <li className=' list  hover:text-blue-600 mb-2   '>photos</li>
+                <li className=' list  hover:text-blue-600 mb-2   '>Photos</li>
                 <li className='  list  hover:text-blue-600  mb-2 '>Videos</li>
 
 
@@ -194,6 +196,15 @@ function Navbar() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+
+        <div className="z-10 flex h-[60px] items-center justify-center">
+        <a target='blank' href="https://forms.gle/PVyN8w3XRwaws1m8A"><ShimmerButton className="shadow-2xl">
+        <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+          Join Our Communtiy
+        </span>
+      </ShimmerButton>
+      </a>
+    </div>
 
 
 

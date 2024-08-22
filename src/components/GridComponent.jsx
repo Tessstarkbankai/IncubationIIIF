@@ -7,40 +7,41 @@ import { useEffect } from 'react'
 function GridComponent() {
   useEffect(() => {
     Aos.init();
- }, [])
+  }, [])
   return (
-  
+
     <div className="grid-container sm:mt-0 mt-12" data-aos="zoom-in-up" data-aos-easing="linear"
-    data-aos-duration="600" >
+      data-aos-duration="600" >
       <div className="grid-item" >
         <div className="icon">📁</div>
         <h3>STRUCTURED MENTORING PROGRAM</h3>
-        <p>Mentoring increases companies odds of success. We understand the journey and advise accordingly.</p>
+        <p>Mentoring significantly boosts a company's chances of success. We grasp the journey and provide guidance tailored to each step.</p>
       </div>
       <div className="grid-item bg-[#f2f2f2] text-blue-500 font-bold ">
         <div className="icon">🎯</div>
-        <h3>FOCUS ON STUDENT STARTUPS</h3>
+        <h3>EMPHASIS ON STUDENT STARTUPS</h3>
         <p>The idea is to encourage innovation and creativity there is no time and age to build an idea, so you can start early.</p>
       </div>
       <div className="grid-item">
         <div className="icon">🏭</div>
-        <h3>FOCUS ON INDUSTRY NETWORK</h3>
-        <p>The notion is to foster continuous and sustained engagement between large corporates and innovative technology ventures.</p>
+        <h3>EMPHASIS ON INDUSTRY NETWORK</h3>
+        <p>The aim is to cultivate ongoing and lasting collaboration between major corporations and cutting-edge technology ventures.</p>
       </div>
       <div className="grid-item bg-[#f2f2f2] text-blue-500 font-bold ">
         <div className="icon">💸</div>
-        <h3>PROVISION OF SEED FUND</h3>
-        <p>Incubator provides seed funding to help startups in developing their business idea, create a prototype, conduct market research, and cover initial expenses.</p>
+        <h3>SEED FUNDING SUPPORT</h3>
+        <p>The incubator offers seed funding to assist startups in developing their business ideas, creating prototypes, conducting market research, and covering initial expenses.</p>
       </div>
       <div className="grid-item">
         <div className="icon">📍</div>
-        <h3>PROVISION OF SUBSIDIZED INCUBATION SPACE</h3>
-        <p>We help your startup to create, develop and design by providing an office space, where you and your team can brainstorm and work together as one unit.</p>
+        <h3>SUBSIDIZED INCUBATION SPACE</h3>
+        <p>We support your startup's creation, development, and design by offering office space where you and your team can collaborate and work together as a unified group.
+        </p>
       </div>
       <div className="grid-item bg-[#f2f2f2] text-blue-500 font-bold">
         <div className="icon">🚀</div>
-        <h3>FOCUSED ACCELERATION PROGRAM</h3>
-        <p>We help the growth and development of entrepreneurial talent in youth. Acceleration program equips young startups with the tools and skills.</p>
+        <h3>TARGETED ACCELERATION PROGRAM</h3>
+        <p>We nurture the growth and development of entrepreneurial talent in youth. Our acceleration program provides young startups with the tools and skills they need to succeed.</p>
       </div>
     </div>
   )

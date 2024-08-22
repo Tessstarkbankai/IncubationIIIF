@@ -1,15 +1,18 @@
 import React from 'react'
 import videobg from '../assets/video.mp4'
+import video from '../assets/IncubVideo.mp4'
 import './Hero.css'
 
 function Hero() {
   return (
     <div className=' flex justify-center sm:h-[700px] items-center font-sans overflow-hidden'>
-      <div className=' absolute w-full  sm:h-[700px] top-[120px] bg-red-50'>
-        <video src={videobg} autoPlay loop muted className=''></video>
+      <div className=' absolute w-full  sm:h-[840px] top-[120px] bg-red-50'>
+        <video src={video} autoPlay loop muted className='absolute inset-0 w-full h-full object-cover'></video>
       </div>
-      <div className=" text-white  flex flex-col absolute top-[120px] w-[100%] sm:h-[855px] h-[220px] justify-center items-center bg-black opacity-55 ">
-        <h1 className=' sm:text-[75px] text-[20px] tracking-wider font-extrabold font-sans sm:mt-[-350px]'>Invertis Innovation & Incubation </h1>
+      <div className=" text-white  flex flex-col absolute top-[120px] w-[100%] sm:h-[840px] h-[220px] justify-center items-center bg-black opacity-55 ">
+        <h1 className=' sm:text-[75px] text-[20px] tracking-wider font-extrabold font-sans sm:mt-[-280px]'>Invertis Innovation & Incubation </h1>
+        <h1 className=' sm:text-[75px] text-[20px] tracking-wider font-extrabold font-sans '>Foundation</h1>
+
         <h3 className=' sm:text-[25px] text-yellow-300 font-semibold tracking-tight text-center'>This is the home for Inverti's thriving community of innovators & entrepreneurs.</h3>
       </div>
     </div>

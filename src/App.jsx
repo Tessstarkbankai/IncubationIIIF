@@ -17,6 +17,11 @@ import Advisory from './components/Routes/Advisory'
 import Team from './components/Routes/Team'
 import Recognition from './components/Routes/Recognition'
 import Testemonial from './components/Testemonial'
+import parthSir from './assets/Governing/parth_sir4.jpg'
+import TalhaSir from './assets/Governing/Talha_Sir1.jpg'
+
+
+
 
 const App = () => {
   return (
@@ -28,7 +33,8 @@ const App = () => {
               <Navbar />
               <Hero />
               <Description />
-              <Testemonial/>
+              <Testemonial image={parthSir} post={"Chairman"} Description={"I am incredibly proud of our incubation center for fostering innovation and entrepreneurship among our students. Your dedication to nurturing young talent is truly inspiring. Let's continue to create an environment where ideas flourish and businesses thrive."}/>
+              <Testemonial image={TalhaSir} post={"Vice Chairman"} Description={"We are committed to creating an inclusive and supportive environment where every entrepreneur feels valued and empowered. Our doors are always open for mentorship, guidance, and support."}/>
               <Companies/>
               <CardBig />
               <Services />

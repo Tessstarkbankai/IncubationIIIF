@@ -20,6 +20,7 @@ import Testemonial from './components/Testemonial'
 import parthSir from './assets/Governing/parth_sir4.jpg'
 import TalhaSir from './assets/Governing/Talha_Sir1.jpg'
 import Photos from './components/Routes/Photos'
+import Patners from './components/Routes/Patners'
 
 
 
@@ -51,6 +52,9 @@ const App = () => {
           <Route path='/Team' element={<><Navbar/><Team /><Footer/></>} />
           <Route path='/Recognition' element={<><Navbar/><Recognition /><Footer/></>} />
           <Route path='/Photos' element={<><Navbar/><Photos /><Footer/></>} />
+          <Route path='/Patners' element={<><Navbar/><Patners /><Footer/></>} />
+
+
           
 
 

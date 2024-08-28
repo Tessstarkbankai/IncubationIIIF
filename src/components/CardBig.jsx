@@ -19,8 +19,8 @@ function CardBig() {
       </div>
       <div className=' hidden sm:flex justify-center flex-col text-center font-sans' data-aos="fade-left" data-aos-easing="linear"
         data-aos-duration="600">
-        <h1 className=' text-blue-500 sm:mt-0 mt-4 text-xl sm:text-3xl font-extrabold mb-4'>III | The mission </h1>
-        <h3 className=' sm:text-start text-center sm:text-xl text-sm text-white'>III provides a home for Invertis’s thriving community of innovators & entrepreneurs, supporting all who pursue ideas with a passion for world-changing impact.</h3>
+        <h1 className=' text-blue-500 sm:mt-0 mt-4 text-xl sm:text-3xl font-extrabold mb-4'>IIIF | The mission </h1>
+        <h3 className=' sm:text-start text-center sm:text-xl text-sm text-white'>IIIF provides a home for Invertis’s thriving community of innovators & entrepreneurs, supporting all who pursue ideas with a passion for world-changing impact.</h3>
 
       </div>
       <div className=' sm:hidden flex justify-center flex-col text-center font-sans' data-aos="zoom-out" data-aos-easing="linear"

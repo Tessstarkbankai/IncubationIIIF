@@ -23,8 +23,8 @@ function Photos({image}) {
           <img src={image} className=' w-[250px] h-[250px]' alt="" />
         </div>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[925px]">
-        <img src={image} alt="" />
+      <DialogContent className="sm:max-w-[925px] object-fill">
+        <img src={image} className=' object-fill' alt="" />
       </DialogContent>
     </Dialog>
       </div>

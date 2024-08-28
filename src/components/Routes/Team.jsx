@@ -14,11 +14,11 @@ function Team() {
     <div>
       <SubSection text={"Team"} />
       <div className=' overflow-hidden flex justify-center flex-wrap'>
-      <Card img={bhandari} name={"Mr. Parth Gautam"} dept={"Executive Director"}/>
-      <Card img={prashant} name={"Mr. Mohd Talha Khan"} dept={"Director Industry Partnership"}/>
-      <Card img={vikash} name={"Mr. Ashutosh Pradhan"} dept={"Deputy Registrar"}/>
-      <Card img={archana} name={"Mr. Jitendra Parashari"} dept={"Mr. Jitendra Parashari"}/>
-      <Card img={avdesh} name={"Mr. Jitendra Parashari"} dept={"Mr. Jitendra Parashari"}/>
+      <Card img={bhandari} name={"Dr. Rajeev Singh Bhandari"} dept={"Associate Professor, BBA"}/>
+      <Card img={prashant} name={"Dr. Prashant Kumar Singh"} dept={"Assistant Professor, ME"}/>
+      <Card img={vikash} name={"Dr. Viksit Tripathi"} dept={"Associate Professor, MBA"}/>
+      <Card img={archana} name={"Dr. Archana Saxena"} dept={"Associate Professor,Computer Appliocation"}/>
+      <Card img={avdesh} name={"Dr. Avadhesh kumar Sharma"} dept={"Department of Education"}/>
 
       </div>
 

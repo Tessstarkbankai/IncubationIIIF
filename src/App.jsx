@@ -18,7 +18,7 @@ import Team from './components/Routes/Team'
 import Recognition from './components/Routes/Recognition'
 import Testemonial from './components/Testemonial'
 import parthSir from './assets/Governing/parth_sir4.jpg'
-import TalhaSir from './assets/Governing/Talha_Sir1.jpg'
+import TalhaSir from './assets/Governing/talhaSirOffice.jpg'
 import Photos from './components/Routes/Photos'
 import Patners from './components/Routes/Patners'
 

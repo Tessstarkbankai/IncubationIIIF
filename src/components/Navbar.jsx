@@ -131,7 +131,7 @@ function Navbar() {
                 <Link to='/Advisory' className=' list  hover:text-blue-600 mb-2 '>Advisory Board team</Link>
                 <Link to='/Team' className=' list  hover:text-blue-600 mb-2 '>Team</Link>
                 <Link to='/Recognition' className=' list  hover:text-blue-600 mb-2 '>Recognition</Link>
-                <Link to='/Patners' className=' list  hover:text-blue-600 mb-2 '>Our Patners</Link>
+                <Link to='/Patners' className=' list  hover:text-blue-600 mb-2 '>Our Partners</Link>
 
               </NavigationMenuContent>
             </NavigationMenuItem>
@@ -144,9 +144,9 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Programs</NavigationMenuTrigger>
               <NavigationMenuContent className=' ml-4 text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <li className='  list  hover:text-blue-600 mb-2   '>Faculty devlopment</li>
-                <li className='  list  hover:text-blue-600 mb-2   '>Women Devlopment</li>
-                <li className='  list  hover:text-blue-600 mb-2   '>Tech Devlopment</li>
+                <li className='  list  hover:text-blue-600 mb-2   '>Incubation Program</li>
+                {/* <li className='  list  hover:text-blue-600 mb-2   '>Women Devlopment</li>
+                <li className='  list  hover:text-blue-600 mb-2   '>Tech Devlopment</li> */}
 
               </NavigationMenuContent>
             </NavigationMenuItem>

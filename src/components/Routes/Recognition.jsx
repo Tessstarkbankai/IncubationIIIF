@@ -12,7 +12,7 @@ function Recognition() {
         </div>
         <div className=' text-gray-600 text-xl p-[70px]'>
           <h1 className=' sm:text-2xl text-blue-600 font-semibold pb-4'>Recognition of Incubator centre of Invertis University “Invertis Innovation Incubator Foundation (IIIF) by Ministry of Science & Technology, GOI</h1>
-          <h2>Chitkara University Institute of Engineering & Technology has been recognized as Business Incubator (BI)/host Institution (HI) for implementation of the Scheme “Support for Entrepreneurial & management development of SMEs through incubator by Ministry of Micro, Small and Medium Enterprises, Government of India</h2>
+          <h2>Invertis University Institute of Engineering & Technology has been recognized as Business Incubator (BI)/host Institution (HI) for implementation of the Scheme “Support for Entrepreneurial & management development of SMEs through incubator by Ministry of Micro, Small and Medium Enterprises, Government of India</h2>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ function Recognition() {
         </div>
         <div className=' text-gray-600 text-xl p-[70px]'>
           <h1  className=' sm:text-2xl text-blue-600 font-semibold pb-4'>Recognition of Incubator centre of Invertis University “Invertis Innovation Incubator Foundation (IIIF) by Ministry of Science & Technology, GOI</h1>
-          <h2>Chitkara University Institute of Engineering & Technology has been recognized as Business Incubator (BI)/host Institution (HI) for implementation of the Scheme “Support for Entrepreneurial & management development of SMEs through incubator by Ministry of Micro, Small and Medium Enterprises, Government of India</h2>
+          <h2>Invertis University Institute of Engineering & Technology has been recognized as Business Incubator (BI)/host Institution (HI) for implementation of the Scheme “Support for Entrepreneurial & management development of SMEs through incubator by Ministry of Micro, Small and Medium Enterprises, Government of India</h2>
         </div>
       </div>
     </div>

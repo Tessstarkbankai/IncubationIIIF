@@ -34,11 +34,11 @@ function About() {
       </div>
       <h1 className=' text-xl sm:text-3xl font-extrabold font-sans text-center sm:tracking-widest mb-2 z-10 relative'>Vision & Mission</h1>
       <div className=' w-[110px] sm:w-[190px] h-1 bg-blue-600 m-auto mb-4 z-10 relative'></div>
-      <div className=' sm:px-[200px] px-[50px] py-[30px] sm:py-[60px]'>
+      <div className=' sm:px-[200px] px-[50px] py-[30px] sm:py-[20px]'>
         <h1 className=' text-3xl text-blue-600 font-bold'>Vision</h1>
-        <h3 className=' text-xl text-gray-600 py-8'>Empowering aspiring entrepreneurs to launch successful ventures with minimal risk through a supportive and resource-rich platform.</h3>
+        <h3 className=' text-xl text-gray-600 py-4'>Empowering aspiring entrepreneurs to launch successful ventures with minimal risk through a supportive and resource-rich platform.</h3>
       </div>
-      <div className='sm:px-[200px] px-[50px] py-[20px] sm:py-[10px] pb-11'>
+      <div className='sm:px-[200px] px-[50px] py-[10px] sm:py-[10px] pb-11'>
         <h1 className=' text-3xl text-blue-600 font-bold'>Mission</h1>
         <h3 className=' text-xl text-gray-600 py-8'>The Incubation Centre's mission is to empower the next generation of entrepreneurs to solve local challenges by transforming innovative ideas into successful startups. We foster collaboration among students, faculty, alumni, and local industries to drive impactful change.</h3>
       </div>

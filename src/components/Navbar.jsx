@@ -201,7 +201,7 @@ function Navbar() {
         </NavigationMenu>
 
         <div className="z-10 flex h-[60px] items-center justify-center">
-          <a target='blank' href="https://forms.gle/PVyN8w3XRwaws1m8A"><ShimmerButton className="shadow-2xl">
+          <a target='blank' href="https://forms.gle/EKjLujYzjmbFr5ZG6"><ShimmerButton className="shadow-2xl">
             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
               Join Our Communtiy
             </span>

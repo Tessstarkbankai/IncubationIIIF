@@ -12,8 +12,8 @@ function Footer() {
     <>
       <div className=' hidden h-[400px] bg-gradient-to-r from-blue-100 to-blue-200 sm:flex justify-center gap-14' >
         <div className="logo" >
-          <img src="./incub-logo.png" width={'360px'} className=' ml-[-100px] mt-[40px]' alt="" />
-          <div className=' flex gap-4 absolute left-10'>
+          <img src="./incub-logo.png" width={'300px'} className=' mt-[40px]' alt="" />
+          <div className=' flex gap-4 absolute left-16'>
             <div className='p-2 bg-yellow-400 rounded-full'><FaPhoneAlt /></div>
             <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> 1800 274 5252</p>
             <div className='p-2 bg-yellow-400 rounded-full'><IoMdMail /></div>
@@ -23,7 +23,7 @@ function Footer() {
 
 
         </div>
-        <div className="contact ml-[10px] w-[350px] mt-[30px] leading-10 font-sans text-lg text-blue-600">
+        <div className="contact ml-[140px] w-[350px] mt-[30px] leading-10 font-sans text-lg text-blue-600">
           <span className=' text-2xl  text-blue-800 font-bold'>Contact Us</span>
           <br />
           <span className=' font-semibold'>Physical Address   </span>
@@ -85,7 +85,7 @@ function Footer() {
           </div>
           <h1 className=' text-center  mb-2 mt-4 text-2xl text-blue-800 font-bold'>Handles</h1>
           <div className=' justify-center flex gap-4 mt-2 mb-5 hover:cursor-pointer' >
-          <a href="https://www.instagram.com/invertis.university/?hl=en" target="_blank"><svg className='scale-100 transition duration-300 hover:scale-150' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+          <a href="https://www.instagram.com/invertis_incubation?igsh=MW11d3RzMzl4bGoxcQ==" target="_blank"><svg className='scale-100 transition duration-300 hover:scale-150' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
               <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
             </svg></a>
             <a href="https://x.com/InvertisUni" target="_blank"><svg className='scale-100 transition duration-300 hover:scale-150' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">

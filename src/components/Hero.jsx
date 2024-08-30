@@ -10,8 +10,8 @@ function Hero() {
         <video src={video} autoPlay loop muted className='absolute inset-0 w-full h-full object-cover'></video>
       </div>
       <div className=" text-white  flex flex-col absolute top-[120px] w-[100%] sm:h-[840px] h-[220px] justify-center items-center bg-black opacity-55 ">
-        <h1 className=' sm:text-[75px] text-[20px] tracking-wider font-extrabold font-sans sm:mt-[-280px]'>Invertis Innovation & Incubation </h1>
-        <h1 className=' sm:text-[75px] text-[20px] tracking-wider font-extrabold font-sans sm:mt-[-20px] '>Foundation</h1>
+        <h1 className=' sm:text-[65px] text-[20px] tracking-wider font-extrabold font-sans sm:mt-[-280px]'>Invertis Innovation & Incubation </h1>
+        <h1 className=' sm:text-[65px] text-[20px] tracking-wider font-extrabold font-sans sm:mt-[-10px] '>Foundation</h1>
 
         <h3 className=' sm:text-[25px] text-yellow-300 font-semibold tracking-tight text-center'>This is the home for Inverti's thriving community of innovators & entrepreneurs.</h3>
       </div>

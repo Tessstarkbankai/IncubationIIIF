@@ -11,9 +11,6 @@ import muskan from '../../assets/Team/muskan_mam.jpg'
 
 
 
-
-
-
 function Team() {
   return (
     <div>

@@ -5,6 +5,11 @@
   left: 0;
   /* background-color: rgba(0, 0, 0,.7); */
 }
+/* In your CSS file */
+.justify-text {
+  text-align: justify;
+}
+
 
 .overlayB{
   position:  absolute;

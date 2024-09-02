@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className=' flex justify-center sm:h-[700px] items-center font-sans overflow-hidden'>
       <div className=' absolute w-full  sm:h-[840px] top-[120px] bg-red-50'>
-        <video src={video} autoPlay loop muted className='absolute inset-0 w-full h-full object-cover'></video>
+        <video src={video} autoPlay loop muted className=' inset-0 w-full h-full object-cover'></video>
       </div>
       <div className=" text-white  flex flex-col absolute top-[120px] w-[100%] sm:h-[840px] h-[220px] justify-center items-center bg-black opacity-55 ">
         <h1 className="text-center sm:text-8xl text-2xl tracking-wider font-extrabold font-sans sm:mt-[-280px] md:mt-[-350px] lg:mt-[-400px] xl:mt-[-250px]">Invertis Innovation &</h1>

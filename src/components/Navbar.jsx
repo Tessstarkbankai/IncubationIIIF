@@ -53,6 +53,15 @@ function Navbar() {
 
             <DropdownMenuGroup>
               <DropdownMenuSub>
+                <DropdownMenuSubTrigger><div className="z-10 flex mt-3 mb-3 h-[10px] items-center justify-center">
+                  <a target='blank' href="https://forms.gle/EKjLujYzjmbFr5ZG6"><ShimmerButton className="shadow-2xl">
+                    <span className="whitespace-pre-wrap text-center text-sm font-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                      Join Our Communtiy
+                    </span>
+                  </ShimmerButton>
+                  </a>
+                </div></DropdownMenuSubTrigger>
+
                 <DropdownMenuSubTrigger>About</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
@@ -63,7 +72,7 @@ function Navbar() {
                     <DropdownMenuItem><Link to='/Team' className='  hover:text-blue-600  '>Team</Link></DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Recognition' className=' hover:text-blue-600 '>Recognition</Link></DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Patners' className=' hover:text-blue-600 mb-2 '>Our Patners</Link></DropdownMenuItem>
-                     
+
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
@@ -71,9 +80,8 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Program</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem>Faculty Devlopment</DropdownMenuItem>
-                    <DropdownMenuItem>Women Development</DropdownMenuItem>
-                    <DropdownMenuItem>Tech Development</DropdownMenuItem>
+                    <DropdownMenuItem>Incubation Program</DropdownMenuItem>
+
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
@@ -93,7 +101,7 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Event</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem>Photos</DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/Photos' className=' hover:text-blue-600 mb-2 '>Photos</Link></DropdownMenuItem>
                     <DropdownMenuItem>Videos</DropdownMenuItem>
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>

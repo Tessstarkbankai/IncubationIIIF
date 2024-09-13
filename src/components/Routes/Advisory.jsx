@@ -5,7 +5,8 @@ import Alok from '../../assets/Advisory/Alok.jpg'
 import Cheema from '../../assets/Advisory/cheemaSir.jpg'
 import Harish from '../../assets/Advisory/Harish.jpeg'
 import Syris from '../../assets/Advisory/Syris.jpeg'
-import Vasim from '../../assets/Advisory/VasimSir.jpg'
+import Vasim from '../../assets/Advisory/vasimJi.jpg'
+
 
 
 

@@ -11,8 +11,8 @@ function Hero() {
       </div>
       <div className=" text-white  flex flex-col absolute top-[120px] w-[100%] sm:h-[840px] h-[57vw] justify-center items-center bg-black opacity-55 ">
         <h1 className="text-center sm:text-8xl text-2xl tracking-wider font-extrabold font-sans sm:mt-[-280px] md:mt-[-350px] lg:mt-[-400px] xl:mt-[-250px]">Invertis Innovation &</h1>
-        <h1 className="text-center sm:text-7xl sm:mx-4 text-2xl tracking-widest font-extrabold font-sans sm:mt-[-10px] md:mt-[-5px] lg:mt-[-2px] xl:mt-[15px]">Incubation Foundation</h1>
-        <h3 className="text-center sm:text-2xl mt-5 text-yellow-300 font-semibold tracking-tight">This is the home for Invertis thriving community of innovators & entrepreneurs.</h3>
+        <h1 className="text-center sm:text-8xl sm:mx-4 text-2xl tracking-widest font-extrabold font-sans sm:mt-[-10px] md:mt-[-5px] lg:mt-[-2px] xl:mt-[15px]">Incubation</h1>
+        <h3 className="text-center sm:text-2xl mt-5 text-yellow-300 font-semibold tracking-tight">This is the home for Invertis' thriving community of innovators & entrepreneurs.</h3>
       </div>
     </div>
   )

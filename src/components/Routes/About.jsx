@@ -12,7 +12,7 @@ function About() {
   }, [])
   return (
     <>
-      <SubSection text={"About IIIF"} />
+      <SubSection text={"About III"} />
       <div className=' sm:flex justify-around gap-11 h-full p-[80px]'>
         <div className='' data-aos="fade-right" data-aos-easing="linear"
           data-aos-duration="600">
@@ -37,11 +37,12 @@ function About() {
       <div className=' w-[110px] sm:w-[190px] h-1 bg-blue-600 m-auto mb-4 z-10 relative'></div>
       <div className=' sm:px-[200px] px-[50px] py-[30px] sm:py-[20px]'>
         <h1 className=' text-3xl text-blue-600 font-bold'>Vision</h1>
-        <h3 className=' text-xl text-gray-600 py-4'>Empowering aspiring entrepreneurs to launch successful ventures with minimal risk through a supportive and resource-rich platform.</h3>
+        <h3 className=' text-xl text-gray-600 py-4'>Empower aspiring entrepreneurs to launch successful ventures with minimal risk through a supportive, resource-rich platform/</h3>
       </div>
       <div className='sm:px-[200px] px-[50px] py-[10px] sm:py-[10px] pb-11'>
         <h1 className=' text-3xl text-blue-600 font-bold'>Mission</h1>
-        <h3 className=' text-xl text-gray-600 py-8'>The Incubation Centre's mission is to empower the next generation of entrepreneurs to solve local challenges by transforming innovative ideas into successful startups. We foster collaboration among students, faculty, alumni, and local industries to drive impactful change.</h3>
+        <h3 className=' text-xl text-gray-600 py-8'>
+        Empower the next generation of entrepreneurs to solve local challenges by turning innovative ideas into successful startups. We foster collaboration among students, faculty, alumni, and local industries to drive impactful change</h3>
       </div>
       
     </>

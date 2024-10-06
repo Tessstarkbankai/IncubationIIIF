@@ -77,10 +77,10 @@ function Navbar() {
                 </DropdownMenuPortal>
               </DropdownMenuSub>
               <DropdownMenuSub>
-                <DropdownMenuSubTrigger>Program</DropdownMenuSubTrigger>
+                <DropdownMenuSubTrigger>Programs</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem>Incubation Program</DropdownMenuItem>
+                    <DropdownMenuItem>Incubation Programs </DropdownMenuItem>
 
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
@@ -113,7 +113,7 @@ function Navbar() {
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
                     <DropdownMenuItem>Patents</DropdownMenuItem>
-                    <DropdownMenuItem>Sucess Stories</DropdownMenuItem>
+                    <DropdownMenuItem>Success Stories</DropdownMenuItem>
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
@@ -133,10 +133,10 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-sans font-bold text-lg'>About</NavigationMenuTrigger>
               <NavigationMenuContent className=' text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <Link to='/AboutIIF' className='list  hover:text-blue-600 mb-2'>About IIIF</Link>
+                <Link to='/AboutIIF' className='list  hover:text-blue-600 mb-2'>About III</Link>
                 {/* <Link to='/MissionVision' className=' list  hover:text-blue-600 mb-2   '>Mission & Vision</Link> */}
                 <Link to='/GoveningCouncil' className=' list  hover:text-blue-600 mb-2 '>Governing Council</Link>
-                <Link to='/Advisory' className=' list  hover:text-blue-600 mb-2 '>Advisory Board team</Link>
+                <Link to='/Advisory' className=' list  hover:text-blue-600 mb-2 '>Advisory Board Team</Link>
                 <Link to='/Team' className=' list  hover:text-blue-600 mb-2 '>Team</Link>
                 <Link to='/Recognition' className=' list  hover:text-blue-600 mb-2 '>Recognition</Link>
                 <Link to='/Patners' className=' list  hover:text-blue-600 mb-2 '>Our Partners</Link>
@@ -151,8 +151,7 @@ function Navbar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Programs</NavigationMenuTrigger>
               <NavigationMenuContent className=' ml-4 text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
-
-                <li className='  list  hover:text-blue-600 mb-2   '>Incubation Program</li>
+                <Link to='/IncubationProgram'><li className='  list  hover:text-blue-600 mb-2   '>Incubation Programs</li></Link>
                 {/* <li className='  list  hover:text-blue-600 mb-2   '>Women Devlopment</li>
                 <li className='  list  hover:text-blue-600 mb-2   '>Tech Devlopment</li> */}
 
@@ -167,12 +166,10 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Scheme</NavigationMenuTrigger>
               <NavigationMenuContent className=' text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <li className=' list  hover:text-blue-600 mb-2   '>Devlopment</li>
-                <li className=' list  hover:text-blue-600 mb-2   '>Funding</li>
-                <li className=' list  hover:text-blue-600  mb-2  '>Growth</li>
-                <li className='  list  hover:text-blue-600 mb-2  '>Target</li>
-
-
+                <Link to='/Development'><li className=' list  hover:text-blue-600 mb-2   '>Development</li></Link>
+                <Link to='/Funding'><li className=' list  hover:text-blue-600 mb-2   '>Funding</li></Link>
+                <Link to='/Growth'><li className=' list  hover:text-blue-600  mb-2  '>Growth</li></Link>
+                {/* <Link to='/Target'><li className='  list  hover:text-blue-600 mb-2  '>Target</li></Link> */}
               </NavigationMenuContent>
             </NavigationMenuItem>
           </NavigationMenuList>
@@ -185,7 +182,7 @@ function Navbar() {
               <NavigationMenuContent className='  text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
                 <Link to='/Photos' className=' list  hover:text-blue-600 mb-2 '>Photos</Link>
-                <li className='  list  hover:text-blue-600  mb-2 '>Videos</li>
+                <Link to='/Videos'><li className='  list  hover:text-blue-600  mb-2 '>Videos</li></Link>
 
 
               </NavigationMenuContent>
@@ -199,8 +196,8 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Impact</NavigationMenuTrigger>
               <NavigationMenuContent className=' text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <li className='  list  hover:text-blue-600 mb-2   '>Patent Filled</li>
-                <li className='  list  hover:text-blue-600 mb-2  '>Sucess Stories</li>
+                <Link to='/Patents'><li className='  list  hover:text-blue-600 mb-2   '>Patents Filled</li></Link>
+                <Link to='/Success'><li className='  list  hover:text-blue-600 mb-2  '>Success Stories</li></Link>
 
 
               </NavigationMenuContent>
@@ -208,13 +205,27 @@ function Navbar() {
           </NavigationMenuList>
         </NavigationMenu>
 
-        <div className="z-10 flex h-[60px] items-center justify-center">
-          <a target='blank' href="https://forms.gle/EKjLujYzjmbFr5ZG6"><ShimmerButton className="shadow-2xl">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-              Join Our Communtiy
-            </span>
-          </ShimmerButton>
-          </a>
+        <div className="group relative inline-block text-left">
+          <div className=" p-2 rounded-md transition-all duration-300 ease-in-out">
+            <div className="z-10 flex h-[60px] items-center justify-center">
+              <ShimmerButton className="shadow-2xl">
+                <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                  Join Our Community
+                </span>
+              </ShimmerButton>
+            </div>
+            <div className="hidden transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100 group-hover:block absolute mt-1 w-56 bg-white rounded-md shadow-lg z-10">
+              <a href="#" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
+                <a target='blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfXDNGuRg6Zf8e07Lwws2VhPXj89NY0jfPhu6G_bEtn5hQt7g/viewform?usp=sf_link">Startup Registration</a>
+              </a>
+              <a target='blank' href="https://forms.gle/9ScwfUjZbzrBkhraA" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
+                Become our Partner
+              </a>
+              <a target='blank' href="https://forms.gle/98WXNi2W5auq33DT8" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
+                Join as Mentor
+              </a>
+            </div>
+          </div>
         </div>
 
 

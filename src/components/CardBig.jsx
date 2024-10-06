@@ -9,7 +9,7 @@ function CardBig() {
 
   return (
     <div className=' w-[80%] h-[400px] bg-slate-600 sm:flex justify-center m-auto p-8 gap-10 bg-gradient-to-tl from-blue-500 to-transparent via-blue-300 shadow-lg rounded-lg'>
-      <div className=' hidden sm:flex justify-center items-center' data-aos="fade-right" data-aos-easing="linear"
+      <div className=' hidden sm:flex w-[1200px] justify-center items-center' data-aos="fade-right" data-aos-easing="linear"
         data-aos-duration="600">
         <img className=' sm:mt-6' src="./area.jpg" alt="" />
       </div>
@@ -19,8 +19,9 @@ function CardBig() {
       </div>
       <div className=' hidden sm:flex justify-center flex-col text-center font-sans' data-aos="fade-left" data-aos-easing="linear"
         data-aos-duration="600">
-        <h1 className=' text-blue-500 sm:mt-0 mt-4 text-xl sm:text-3xl font-extrabold mb-4'>IIIF | The mission </h1>
-        <h3 className=' sm:text-start text-center sm:text-xl text-sm text-white'>IIIF provides a home for Invertis’s thriving community of innovators & entrepreneurs, supporting all who pursue ideas with a passion for world-changing impact.</h3>
+        <h1 className=' text-blue-500 sm:mt-0 mt-4 text-xl sm:text-3xl font-extrabold mb-4'>III | Thrust Areas </h1>
+        <h3 className=' sm:text-start text-center sm:text-lg text-sm text-white'>
+        The thrust area of incubation at our center focuses on nurturing innovative startups in key domains such as technology, healthcare, sustainability, and social impact. We provide comprehensive support through mentorship, funding, and resources to help early-stage ventures grow and succeed in a dynamic market.</h3>
 
       </div>
       <div className=' sm:hidden flex justify-center flex-col text-center font-sans' data-aos="zoom-out" data-aos-easing="linear"

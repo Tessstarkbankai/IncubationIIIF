@@ -17,7 +17,7 @@ function Footer() {
             <div className='p-2 bg-yellow-400 rounded-full'><FaPhoneAlt /></div>
             <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> 1800 274 5252</p>
             <div className='p-2 bg-yellow-400 rounded-full'><IoMdMail /></div>
-            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> info@invertis.org</p>
+            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> invertis.incubation@invertis.org</p>
           </div>
 
 
@@ -37,7 +37,7 @@ function Footer() {
           <span className=' text-2xl text-blue-800 font-bold'>This Website</span>
           <br />
 
-          IIIF is Powered By
+          III is Powered By
           <img src="logo_inv.svg" width={'230px'} className=' mt-4' alt="" />
           <br />
           <br />

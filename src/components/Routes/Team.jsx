@@ -8,6 +8,7 @@ import prashant from '../../assets/Team/PrashantSir.jpeg'
 import vikash from '../../assets/Team/VikashSir.jpeg'
 import ayushi from '../../assets/Team/ayushi.jpg'
 import muskan from '../../assets/Team/muskan_mam.jpg'
+import me from '../../assets/Meeee.jpg'
 
 
 
@@ -23,6 +24,7 @@ function Team() {
       <Card img={prashant} name={"Dr. Prashant Kumar Singh"} dept={"Assistant Professor, ME"}/>
       <Card img={vikash} name={"Dr. Viksit Tripathi"} dept={"Associate Professor, MBA"}/>
       <Card img={purnima} name={"Mrs. Purnima Awasthi"} dept={"Department of Computer Science & Engineering"}/>
+      <Card img={me} name={"Mr. Ayush Rai"} dept={"Convenor, Student Committee & Developer"}/>
 
       </div>
 

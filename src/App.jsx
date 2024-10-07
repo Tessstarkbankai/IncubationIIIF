@@ -47,7 +47,7 @@ const App = () => {
               <Description />
               <Testemonial image={chancellorSir} post={"Chancellor"} Description={" I am proud to emphasize the vital role our Incubation Center plays in empowering students to turn ideas into startups. With expert guidance, resources, and a collaborative environment, students can accelerate their entrepreneurial journey, transforming creativity into real-world ventures."} name={"Dr. Umesh Gautam"}/>
               <Testemonial image={parthSir} post={"Chairman"} Description={"I am incredibly proud of our incubation center for fostering innovation and entrepreneurship among our students.Let's continue to create an environment where ideas flourish and businesses thrive."} name={"Mr. Parth Gautam"}/>
-              <Testemonial image={TalhaSir} post={"Vice Chairman"} Description={"We are committed to creating an inclusive and supportive environment where every entrepreneur feels valued and empowered. Our doors are always open for mentorship, guidance, and support."} name={"Mr. Mohd Talha Khan"}/>
+              <Testemonial image={TalhaSir} post={"Vice Chairman"} Description={"We are committed to creating an inclusive and supportive environment where every entrepreneur feels valued and empowered. Our doors are always open for mentorship, guidance, and support."} name={"Mr. Mohd. Talha Khan"}/>
               <Companies/>
               <CardBig />
               <Services />

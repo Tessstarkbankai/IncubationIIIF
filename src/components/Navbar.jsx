@@ -151,7 +151,7 @@ function Navbar() {
             <NavigationMenuItem>
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Programs</NavigationMenuTrigger>
               <NavigationMenuContent className=' ml-4 text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
-                <Link to='/IncubationProgram'><li className='  list  hover:text-blue-600 mb-2   '>Incubation Programs</li></Link>
+                <Link to='/IncubationProgram'><li className='  list  hover:text-blue-600 mb-2  '>Incubation Programs</li></Link>
                 {/* <li className='  list  hover:text-blue-600 mb-2   '>Women Devlopment</li>
                 <li className='  list  hover:text-blue-600 mb-2   '>Tech Devlopment</li> */}
 

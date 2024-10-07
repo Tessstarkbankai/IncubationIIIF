@@ -24,7 +24,7 @@ function GoveningCouncil() {
       <SubSection text={"Governing Council"}/>
       <div className=' overflow-hidden flex justify-center flex-wrap'>
       <Card img={parthSir} name={"Mr. Parth Gautam"} dept={"Chairman"}/>
-      <Card img={tallahSir} name={"Mr. Mohd Talha Khan"} dept={"Vice Chairman"}/>
+      <Card img={tallahSir} name={"Mr. Mohd. Talha Khan"} dept={"Vice Chairman"}/>
       <Card img={ashutosh} name={"Mr. Ashutosh Pradhan"} dept={"Member Secretary"}/>
       <Card img={shuklaSir} name={"Dr. R.K. Shukla"} dept={"Executive Member"}/>
       <Card img={manishSir} name={"Dr. Manish Gupta"} dept={"Executive Member"}/>

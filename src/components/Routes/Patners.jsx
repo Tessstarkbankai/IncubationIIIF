@@ -48,9 +48,9 @@ import { Link } from 'react-router-dom'
 function Patners() {
   return (
     <>
-    <SubSection text={"Our Patners"}/>
+    <SubSection text={"Our Partners"}/>
     <div className=' flex gap-2 py-14 sm:px-32 flex-wrap justify-center text-center '>
-      <Patner image={microsoft} name={"Microsoft Patner Network "}/>
+      <Patner image={microsoft} name={"Microsoft Partner Network "}/>
       <Patner image={ibm} name={"IBM"}/>
       <Patner image={adobe} name={"Adobe"}/>
       <Patner image={ansys} name={"Ansys, Inc."}/>
@@ -70,7 +70,7 @@ function Patners() {
       <div className="z-10 flex h-[60px] items-center justify-center">
           <a target='blank' href="https://forms.gle/9ScwfUjZbzrBkhraA"><ShimmerButton className=" hover:scale-150 transition-all duration-300 ease-in-out shadow-2xl">
             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-              Be Our Patner
+              Be Our Partner
             </span>
           </ShimmerButton>
           </a>

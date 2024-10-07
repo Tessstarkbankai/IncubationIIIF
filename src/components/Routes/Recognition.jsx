@@ -26,12 +26,12 @@ function Recognition() {
           <h2>Invertis University Institute of Engineering & Technology has been recognized as Business Incubator (BI)/host Institution (HI) for implementation of the Scheme “Support for Entrepreneurial & management development of SMEs through incubator by Ministry of Micro, Small and Medium Enterprises, Government of India</h2>
         </div>
       </div> */}
-      <div className=' flex justify-center px-16 items-center gap-10 mt-44 m-auto text-center text-4xl text-gray-500'> 
-        <div className="img">
-          <img src={startinUP} alt="" />
+      <div className=' sm:flex justify-center px-16 items-center gap-10 mt-52 m-auto text-center text-4xl text-gray-500'> 
+        <div className="img mb-2 flex justify-center mt-[-60px]">
+          <img src={startinUP} className='' alt="" />
         </div>
-        <div className="h1">
-          <h1>Recognition of Invertis Innovation & Incubation Center by Start in UP</h1>
+        <div className="h1 sm:mt-[-60px] mt-10 text-left sm:text-center  sm:text-4xl text-lg" style={{ textAlign: 'justify' }}>
+          <h1>Recognition of Invertis Innovation & Incubation Centre by StartinUP.</h1>
         </div>
       </div>
     </div>

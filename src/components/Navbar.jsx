@@ -49,29 +49,45 @@ function Navbar() {
               <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1)" d="M43,15H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,14.1,44.1,15,43,15z"></path><linearGradient id="9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2" x1="12.066" x2="34.891" y1="12.066" y2="34.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2)" d="M43,27H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,26.1,44.1,27,43,27z"></path><linearGradient id="9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3" x1="12.066" x2="34.891" y1="24.066" y2="46.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3)" d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
             </svg>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-56">
 
+          <DropdownMenuContent className="w-56">
             <DropdownMenuGroup>
               <DropdownMenuSub>
-                <DropdownMenuSubTrigger><div className="z-10 flex mt-3 mb-3 h-[10px] items-center justify-center">
-                  <a target='blank' href="https://forms.gle/EKjLujYzjmbFr5ZG6"><ShimmerButton className="shadow-2xl">
-                    <span className="whitespace-pre-wrap text-center text-sm font-sm leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-                      Join Our Communtiy
-                    </span>
-                  </ShimmerButton>
-                  </a>
-                </div></DropdownMenuSubTrigger>
+                {/* <DropdownMenuSubTrigger> */}
+                  <div className="group mt-2 mb-2 relative inline-block text-left">
+                  <div className=" p-2 rounded-md transition-all duration-300 ease-in-out">
+                    <div className="z-10 flex h-[10px] items-center justify-center">
+                      <ShimmerButton className="h-[40px] shadow-2xl">
+                        <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+                          Join Our Community
+                        </span>
+                      </ShimmerButton>
+                    </div>
+                    <div className="hidden transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100 group-hover:block absolute mt-4 mr-24 w-56 bg-white rounded-md shadow-lg z-10">
+                      <a href="#" className="block ml-4 text-[15px] px-2 py-1hover:bg-gray-100">
+                        <a target='blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfXDNGuRg6Zf8e07Lwws2VhPXj89NY0jfPhu6G_bEtn5hQt7g/viewform?usp=sf_link">Startup Registration</a>
+                      </a>
+                      <a target='blank' href="https://forms.gle/9ScwfUjZbzrBkhraA" className="block ml-4 text-[15px] px-2 py-1 hover:bg-gray-100">
+                        Become our Partner
+                      </a>
+                      <a target='blank' href="https://forms.gle/98WXNi2W5auq33DT8" className="block ml-4 text-[15px] px-2 py-1hover:bg-gray-100">
+                        Join as Mentor
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                {/* </DropdownMenuSubTrigger> */}
 
                 <DropdownMenuSubTrigger>About</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem><Link to='/AboutIIF' className=' hover:text-blue-600 '>About IIIF</Link></DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/AboutIIF' className=' hover:text-blue-600 '>About III</Link></DropdownMenuItem>
                     {/* <DropdownMenuItem><Link to='/MissionVision' className=' hover:text-blue-600   '>Mission & Vision</Link></DropdownMenuItem> */}
                     <DropdownMenuItem><Link to='/GoveningCouncil' className=' hover:text-blue-600  '>Governing Council</Link> </DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Advisory' className=' hover:text-blue-600  '>Advisory Board team</Link></DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Team' className='  hover:text-blue-600  '>Team</Link></DropdownMenuItem>
                     <DropdownMenuItem><Link to='/Recognition' className=' hover:text-blue-600 '>Recognition</Link></DropdownMenuItem>
-                    <DropdownMenuItem><Link to='/Patners' className=' hover:text-blue-600 mb-2 '>Our Patners</Link></DropdownMenuItem>
+                    <DropdownMenuItem><Link to='/Patners' className=' hover:text-blue-600 mb-2 '>Our Partners</Link></DropdownMenuItem>
 
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
@@ -80,8 +96,7 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Programs</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem>Incubation Programs </DropdownMenuItem>
-
+                    <Link to='/IncubationProgram'><DropdownMenuItem>Incubation Programs</DropdownMenuItem></Link>
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
@@ -89,10 +104,10 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Scheme</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem>Devlopment</DropdownMenuItem>
-                    <DropdownMenuItem>Funding</DropdownMenuItem>
-                    <DropdownMenuItem>Growth</DropdownMenuItem>
-                    <DropdownMenuItem>Target</DropdownMenuItem>
+                    <Link to='/Development'><DropdownMenuItem>Devlopment</DropdownMenuItem></Link>
+                    <Link to='/Funding'><DropdownMenuItem>Funding</DropdownMenuItem></Link>
+                    <Link to='/Growth'><DropdownMenuItem>Growth</DropdownMenuItem></Link>
+                    {/* <Link to='/Target'><DropdownMenuItem>Target</DropdownMenuItem></Link> */}
 
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
@@ -102,7 +117,7 @@ function Navbar() {
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
                     <DropdownMenuItem><Link to='/Photos' className=' hover:text-blue-600 mb-2 '>Photos</Link></DropdownMenuItem>
-                    <DropdownMenuItem>Videos</DropdownMenuItem>
+                    <Link to='/Videos'><DropdownMenuItem>Videos</DropdownMenuItem></Link>
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
@@ -112,8 +127,8 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Empact</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <DropdownMenuItem>Patents</DropdownMenuItem>
-                    <DropdownMenuItem>Success Stories</DropdownMenuItem>
+                    <Link to='/Patents'><DropdownMenuItem>Patents</DropdownMenuItem></Link>
+                    <Link to='/Success'><DropdownMenuItem>Success Stories</DropdownMenuItem></Link>
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
               </DropdownMenuSub>
@@ -204,7 +219,6 @@ function Navbar() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-
         <div className="group relative inline-block text-left">
           <div className=" p-2 rounded-md transition-all duration-300 ease-in-out">
             <div className="z-10 flex h-[60px] items-center justify-center">

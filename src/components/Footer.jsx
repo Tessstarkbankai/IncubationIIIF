@@ -62,7 +62,7 @@ function Footer() {
         </div>
       </div>
 
-
+      {/* responsive footer */}
       <div className=' sm:hidden bg-gradient-to-r from-blue-100 to-blue-200 flex flex-col w-full gap-14' >
         <div className='flex flex-col justify-center '>
           <div className=' flex justify-center'>
@@ -70,13 +70,13 @@ function Footer() {
           </div>
           <div className=' flex gap-4 justify-center'>
             <div className='p-2 bg-yellow-400 rounded-full'><FaPhoneAlt /></div>
-            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> 1800 274 5252</p>
+            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>1800 274 5252</p>
             <div className='p-2 bg-yellow-400 rounded-full'><IoMdMail /></div>
-            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> info@invertis.org</p>
+            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>invertis.incubation@invertis.org</p>
           </div>
           <div className=' text-center mt-10'>
             <h1 className='  text-2xl  text-blue-800 font-bold'>Contact Us</h1>
-            <span className=' text-blue-600 font-semibold'>Physical Address   </span>
+            <span className=' text-blue-600 font-semibold'>Campus </span>
           Invertis Village, Delhi Lucknow Highway NH-24, Bareilly, Uttar Pradesh Pin - 243 123, India
           <br />
           <br />

@@ -22,7 +22,7 @@ function Description() {
           </div>
           <div className='flex justify-center justify-text sm:hidden sm:ml-[100px] ml-[-50px] text-start p-1 sm:text-left' data-aos="zoom-in" data-aos-easing="linear"
             data-aos-duration="600">
-            <h1 className=' justify-text'>III is not merely a building; it is the vibrant core of the innovation and entrepreneurship (I&E) community at Invertis. This space represents the result of years of meticulous planning, extensive reconstruction, and national community-building. Situated in the heart of Invertis University Bareilly, known as "the most innovative place in the state," IIIF fosters opportunities for transformative impact, not just at Invertis, but across the Indian innovation ecosystem and beyond. </h1>
+            <h1 className=' justify-text'>III is not merely a building; it is the vibrant core of the innovation and entrepreneurship (I&E) community at Invertis. This space represents the result of years of meticulous planning, extensive reconstruction, and national community-building. Situated in the heart of Invertis University Bareilly, known as "the most innovative place in the state," III fosters opportunities for transformative impact, not just at Invertis, but across the Indian innovation ecosystem and beyond. </h1>
           </div>
         </div>
         <div className=" shadow-2xl img hidden sm:flex sm:mr-[120px] sm:ml-[50px] mr-12 mt-8 sm:mt-0" data-aos="fade-left" data-aos-easing="linear"

@@ -66,7 +66,7 @@ function Patners() {
 
     </div>
     <div className='py-40 w-full bg-blue-300/20 shadow-lg'>
-      <h1 className=' mb-12 text-gray-600 font-extrabold text-4xl text-center'>We Work With the Best Patners</h1>
+      <h1 className=' mb-12 text-gray-600 font-extrabold text-4xl text-center'>We Work With the Best Partners</h1>
       <div className="z-10 flex h-[60px] items-center justify-center">
           <a target='blank' href="https://forms.gle/9ScwfUjZbzrBkhraA"><ShimmerButton className=" hover:scale-150 transition-all duration-300 ease-in-out shadow-2xl">
             <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">

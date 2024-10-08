@@ -127,7 +127,7 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Empact</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <Link to='/Patents'><DropdownMenuItem>Patents</DropdownMenuItem></Link>
+                    <Link to='/Patents'><DropdownMenuItem>Patents Filed</DropdownMenuItem></Link>
                     <Link to='/Success'><DropdownMenuItem>Success Stories</DropdownMenuItem></Link>
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
@@ -211,7 +211,7 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Impact</NavigationMenuTrigger>
               <NavigationMenuContent className=' text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <Link to='/Patents'><li className='  list  hover:text-blue-600 mb-2   '>Patents Filled</li></Link>
+                <Link to='/Patents'><li className='  list  hover:text-blue-600 mb-2   '>Patents Filed</li></Link>
                 <Link to='/Success'><li className='  list  hover:text-blue-600 mb-2  '>Success Stories</li></Link>
 
 

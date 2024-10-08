@@ -32,6 +32,9 @@ function Recognition() {
         </div>
         <div className="h1 sm:mt-[-60px] mt-10 text-left sm:text-center  sm:text-4xl text-lg" style={{ textAlign: 'justify' }}>
           <h1>Recognition of Invertis Innovation & Incubation Centre by StartinUP.</h1>
+          <div className="btn">
+            <button className=' text-[20px] border-2 rounded-md p-1 mt-4 text-orange-400 hover:text-blue-500'>Download PDF</button>
+          </div>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ function Advisory() {
       <SubSection text={"Advisory Board"}/>
       <div className=' overflow-hidden flex justify-center flex-wrap'>
       <Card img={Cheema} name={"Mr. HS Cheema"} dept={"Founder Cheema Boilers Limited"}/>
-      <Card img={Syris} name={"Dr. Syrish Raghuyal"} dept={"Director at Positech International Pvt. Ltd."}/>
+      {/* <Card img={Syris} name={"Dr. Syrish Raghuyal"} dept={"Director at Positech International Pvt. Ltd."}/> */}
       <Card img={Vasim} name={"Mr. Vasim Akram Rana"} dept={"Founder & CTO @ Tech Superior Consulting"}/>
       <Card img={rahulNaidu} name={"Mr. M. Rahul Naidu "} dept={"Director at Dysmech Consultancy Services Pvt. Ltd."}/>
       <Card img={Alok} name={"Mr. Alok Pandey"} dept={"CEO, AIC IIT Delhi"}/>

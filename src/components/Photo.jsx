@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dialog"
 
 
-function Photos({image}) {
+function Photos({image,text}) {
   return (
     <div>
       
@@ -21,6 +21,9 @@ function Photos({image}) {
       <DialogTrigger asChild>
         <div className="img">
           <img src={image} className=' w-[250px] h-[250px]' alt="" />
+          <div className="text">
+          <p className=' text-lg text-center'>{text}</p>
+        </div>
         </div>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[925px] object-fill">

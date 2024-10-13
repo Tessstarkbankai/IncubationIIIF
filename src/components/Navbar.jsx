@@ -50,11 +50,11 @@ function Navbar() {
             </svg>
           </DropdownMenuTrigger>
 
-          <DropdownMenuContent className="w-56">
+          <DropdownMenuContent className="w-48">
             <DropdownMenuGroup>
               <DropdownMenuSub>
                 {/* <DropdownMenuSubTrigger> */}
-                  <div className="group mt-2 mb-2 relative inline-block text-left">
+                <div className="group mt-2 mb-2 relative inline-block text-left">
                   <div className=" p-2 rounded-md transition-all duration-300 ease-in-out">
                     <div className="z-10 flex h-[10px] items-center justify-center">
                       <ShimmerButton className="h-[40px] shadow-2xl">
@@ -124,7 +124,7 @@ function Navbar() {
             </DropdownMenuGroup>
             <DropdownMenuGroup>
               <DropdownMenuSub>
-                <DropdownMenuSubTrigger>Empact</DropdownMenuSubTrigger>
+                <DropdownMenuSubTrigger>Impact</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
                     <Link to='/Patents'><DropdownMenuItem>Patents Filed</DropdownMenuItem></Link>

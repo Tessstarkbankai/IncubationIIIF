@@ -10,7 +10,7 @@ function Testemonial({image,Description,post,name}) {
   }, [])
   return (
     <ShineBorder
-      className="relative flex h-[500px] m-auto w-[80%] flex-col mb-40 items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+      className="relative flex sm:h-[500px] h-[620px] m-auto w-[80%] flex-col mb-40 items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
       color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
     >
       <div className=' flex sm:flex-row flex-col justify-center p-4 sm:gap-[100px] gap-2' data-aos="fade-right" data-aos-easing="linear"
@@ -22,7 +22,7 @@ function Testemonial({image,Description,post,name}) {
         <div className='justify-text sm:text-xl text-sm  sm:mt-11 mt-4 ' >{Description}
 
 </div>
-      <div className=' text-[20px] mt-8 mr-8 text-right'>{name}</div>
+      <div className=' sm:text-[20px] text-[18px] font-semibold mt-8 sm:mr-8 text-right'>{name}</div>
       </div>
       </div>
     </ShineBorder>

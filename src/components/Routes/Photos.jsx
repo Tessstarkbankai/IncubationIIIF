@@ -31,7 +31,7 @@ function Photos() {
     <>
       <SubSection text={"Photos & Videos"} />
       <div className=' sm:px-56 sm:py-24 py-12 flex justify-center  flex-wrap gap-5'>
-        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Inaugration of Invertis Innovation & Incubation</h1>
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Inauguration Ceremony of Invertis Innovation & Incubation</h1>
         <Photo image={chance}  />
         <Photo image={cpodium}  />
         <Photo image={guest}  />

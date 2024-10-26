@@ -1,17 +1,17 @@
 // Build Patner Colab Page
 
 
-import holland from '../../assets/Events_Photos/holland_banner.jpeg'
-import hollandStu from '../../assets/Events_Photos/holland_student.jpeg'
-import ipr from '../../assets/Events_Photos/IPR.jpeg'
-import iprStu from '../../assets/Events_Photos/IPR_student.jpeg'
-import creative from '../../assets/Events_Photos/creative.png'
-import creativeStud from '../../assets/Events_Photos/creativeStudent.jpeg'
-import jobseek from '../../assets/Events_Photos/jobseek.jpeg'
-import jobseekStu from '../../assets/Events_Photos/jobseekstudent.jpeg'
+import holland from '../../assets/Event_Photos/Pchema.jpg'
+import hollandStu from '../../assets/Event_Photos/Aethra.jpg'
+import ipr from '../../assets/Event_Photos/Cheema.jpg'
+import iprStu from '../../assets/Event_Photos/handshake.jpg'
+import creative from '../../assets/Event_Photos/Shark.jpg'
+import creativeStud from '../../assets/Event_Photos/Shark3.jpg'
+import jobseek from '../../assets/Event_Photos/all.JPG'
+import jobseekStu from '../../assets/Event_Photos/us.png'
 import startup from '../../assets/Events_Photos/startup.jpeg'
 import startupStu from '../../assets/Events_Photos/startup_student.jpeg'
-import chance from '../../assets/Event_Photos/chace.JPG'
+import chance from '../../assets/Events_Photos/chancellor.JPG'
 import cpodium from '../../assets/Event_Photos/cpodium.JPG'
 import guest from '../../assets/Event_Photos/guests.JPG'
 import iside from '../../assets/Event_Photos/iside.JPG'
@@ -41,7 +41,7 @@ function Photos() {
         <Photo image={iside}  />
         <Photo image={vr}  />
         <Photo image={machine}  />
-        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Seminars and Industrial Visits</h1>
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Shark Tank Invertis</h1>
         <Photo image={holland} />
         <Photo image={hollandStu} />
         <Photo image={ipr}/>
@@ -50,8 +50,6 @@ function Photos() {
         <Photo image={creativeStud}  />
         <Photo image={jobseek} />
         <Photo image={jobseekStu} />
-        <Photo image={startup} />
-        <Photo image={startupStu}   />
       </div>
     </>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import videobg from '../assets/video.mp4'
-import video from '../assets/IncubVideo.mp4'
+import video from '../assets/INCUBATION.mp4'
 import './Hero.css'
 
 function Hero() {

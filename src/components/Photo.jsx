@@ -20,7 +20,7 @@ function Photos({image,text}) {
       <Dialog>
       <DialogTrigger asChild>
         <div className="img">
-          <img src={image} className=' w-[250px] h-[250px]' alt="" />
+          <img src={image} className=' object-cover w-[250px] h-[300px]' alt="" />
           <div className="text">
           <p className=' text-lg text-center'>{text}</p>
         </div>

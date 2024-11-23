@@ -18,7 +18,7 @@ function Team() {
       <SubSection text={"Team"} />
       <div className=' overflow-hidden flex justify-center flex-wrap'>
       <Card img={avdesh} name={"Dr. Avadhesh kumar Sharma"} dept={"Incubation Manager"}/>
-      <Card img={ayushi} name={"Ms. Ayushi Agarwal"} dept={"Associate"}/>
+      {/* <Card img={ayushi} name={"Ms. Ayushi Agarwal"} dept={"Associate"}/> */}
       <Card img={muskan} name={"Ms. Muskan Kasaudhan"} dept={"Associate"}/>
       <Card img={bhandari} name={"Dr. Rajeev Singh Bhandari"} dept={"Associate Professor, BBA"}/>
       <Card img={prashant} name={"Dr. Prashant Kumar Singh"} dept={"Assistant Professor, ME"}/>

@@ -13,9 +13,9 @@ function Footer() {
       <div className=' hidden h-[400px] bg-gradient-to-r from-blue-100 to-blue-200 sm:flex justify-center gap-14' >
         <div className="logo" >
           <img src="./incub-logo.png" width={'300px'} className=' mt-[40px]' alt="" />
-          <div className=' flex gap-4 absolute left-16'>
+          <div className=' flex gap-4 absolute left-5'>
             <div className='p-2 bg-yellow-400 rounded-full'><FaPhoneAlt /></div>
-            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> 1800 274 5252</p>
+            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>7217011248,7217011240</p>
             <div className='p-2 bg-yellow-400 rounded-full'><IoMdMail /></div>
             <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> invertis.incubation@invertis.org</p>
           </div>
@@ -70,7 +70,7 @@ function Footer() {
           </div>
           <div className=' flex gap-4 justify-center'>
             <div className='p-2 bg-yellow-400 rounded-full'><FaPhoneAlt /></div>
-            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>1800 274 5252</p>
+            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>7217011248,7217011240</p>
             <div className='p-2 bg-yellow-400 rounded-full'><IoMdMail /></div>
             <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>invertis.incubation@invertis.org</p>
           </div>

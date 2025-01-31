@@ -30,10 +30,10 @@ function Photos() {
   return (
     <>
       <SubSection text={"Photos & Videos"} />
-      <div className=' sm:px-56 sm:py-24 py-12 flex justify-center  flex-wrap gap-5'>
+      <div className=' sm:px-40 sm:py-24 py-12 flex justify-center  flex-wrap gap-5'>
         <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Inauguration Ceremony of Invertis Innovation & Incubation</h1>
-        <Photo image={chance}  />
-        <Photo image={cpodium}  />
+        <Photo image={chance} text={'Chancellor Sir at CSED'}  />
+        <Photo image={cpodium} text={'Chancellor Sir at Inaugral'}  />
         <Photo image={guest}  />
         <Photo image={parthpodium}  />
         {/* <Photo image={parth}  /> */}

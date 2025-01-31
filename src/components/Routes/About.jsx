@@ -16,20 +16,32 @@ function About() {
       <div className=' sm:flex justify-around gap-11 h-full p-[80px]'>
         <div className='' data-aos="fade-right" data-aos-easing="linear"
           data-aos-duration="600">
-          <img className=' p-2 mb-10 sm:mb-0 sm:w-[4300px] w-[3500px]' src={about_image} alt="" />
+          <img className=' sm:mt-10 scale-105 p-2 mb-10 sm:mb-0 sm:w-[7300px] w-[3500px]' src={about_image} alt="" />
         </div>
         <div className='hidden sm:flex '>
-          <h2 className=' justify-text text-xl text-gray-600' data-aos="fade-left" data-aos-easing="linear"
-            data-aos-duration="600">INVERTIS University aims to cultivate an innovative environment where students and faculty can explore their potential and transform research into real-world solutions. Faculty members actively engage in research and knowledge sharing, while students develop entrepreneurial ventures to address societal challenges.
-            Despite significant R&D efforts in cutting-edge areas, the university recognizes the gap between research and commercialization, often due to industry disinterest in futuristic technologies. To bridge this divide, INVERTIS proposes to encourage faculty and students to establish companies and assume leadership roles.
-            The university seeks to create an ecosystem where students and alumni can maximize their potential, contributing to societal progress through skill development and entrepreneurial endeavors. By integrating technology and creativity, INVERTIS aims to foster an entrepreneurial culture that drives knowledge growth, economic prosperity and job creation.
+          <h2 className=' justify-text text-lg text-gray-600' data-aos="fade-left" data-aos-easing="linear"
+            data-aos-duration="600">Welcome to Invertis Innovation and Incubation <br />
+
+            At Invertis Innovation and Incubation Foundation (IIIF), we believe that great ideas deserve to thrive. Our mission is to foster a dynamic ecosystem where innovators, entrepreneurs, and visionaries can turn their groundbreaking concepts into reality. Whether you're a budding entrepreneur, a seasoned innovator, or an organization with a vision, we’re here to provide you with the support, infrastructure, and expertise needed to scale new heights.
+            
+            With cutting-edge facilities, expert mentorship, and a collaborative environment, we specialize in bridging the gap between ideation and market success. From IT consulting and product development to Smart Manufacturing, HealthTech, and Sustainable Solutions, we are committed to solving real-world problems with creativity and precision.
+            
+            At IIIF, innovation knows no boundaries. We invite startups, researchers, industry professionals, and thought leaders to join hands with us. Together, we can drive progress, nurture talent, and create solutions that have a lasting impact. Whether it’s through access to our industry-grade labs, incubation support, or global networking opportunities, we are here to help you innovate, build, and succeed.
+            
+            Let’s collaborate, innovate, and create a future that inspires. Connect with us today to explore how IIIF can turn your vision into reality!
           </h2>
         </div>
         <div className='sm:hidden flex '>
           <h2 className= ' justify-text text-lg  text-gray-600' data-aos="zoom-in" data-aos-easing="linear"
-            data-aos-duration="600">INVERTIS University aims to cultivate an innovative environment where students and faculty can explore their potential and transform research into real-world solutions. Faculty members actively engage in research and knowledge sharing, while students develop entrepreneurial ventures to address societal challenges.
-            Despite significant R&D efforts in cutting-edge areas, the university recognizes the gap between research and commercialization, often due to industry disinterest in futuristic technologies. To bridge this divide, INVERTIS proposes to encourage faculty and students to establish companies and assume leadership roles.
+            data-aos-duration="600">Welcome to Invertis Innovation and Incubation <br />
 
+            At Invertis Innovation and Incubation Foundation (IIIF), we believe that great ideas deserve to thrive. Our mission is to foster a dynamic ecosystem where innovators, entrepreneurs, and visionaries can turn their groundbreaking concepts into reality. Whether you're a budding entrepreneur, a seasoned innovator, or an organization with a vision, we’re here to provide you with the support, infrastructure, and expertise needed to scale new heights.
+            
+            With cutting-edge facilities, expert mentorship, and a collaborative environment, we specialize in bridging the gap between ideation and market success. From IT consulting and product development to Smart Manufacturing, HealthTech, and Sustainable Solutions, we are committed to solving real-world problems with creativity and precision.
+            
+            At IIIF, innovation knows no boundaries. We invite startups, researchers, industry professionals, and thought leaders to join hands with us. Together, we can drive progress, nurture talent, and create solutions that have a lasting impact. Whether it’s through access to our industry-grade labs, incubation support, or global networking opportunities, we are here to help you innovate, build, and succeed.
+            
+            Let’s collaborate, innovate, and create a future that inspires. Connect with us today to explore how IIIF can turn your vision into reality!
           </h2>
         </div>
       </div>

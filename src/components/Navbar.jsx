@@ -230,12 +230,12 @@ function Navbar() {
             </div>
             <div className="hidden transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100 group-hover:block absolute mt-1 w-56 bg-white rounded-md shadow-lg z-10">
               <a href="#" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
-                <a target='blank' href="https://docs.google.com/forms/d/e/1FAIpQLSfXDNGuRg6Zf8e07Lwws2VhPXj89NY0jfPhu6G_bEtn5hQt7g/viewform?usp=sf_link">Startup Registration</a>
+                <a target='blank' href="https://forms.gle/Sh23s1b8hQ1YAWnG9">Startup Registration</a>
               </a>
-              <a target='blank' href="https://forms.gle/9ScwfUjZbzrBkhraA" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
+              {/* <a target='blank' href="https://forms.gle/9ScwfUjZbzrBkhraA" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
                 Become our Partner
-              </a>
-              <a target='blank' href="https://forms.gle/98WXNi2W5auq33DT8" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
+              </a> */}
+              <a target='blank' href="https://forms.gle/xW6y7Mo29vR73EvDA" className="block ml-4 text-[18px] px-2 py-1 text-gray-500 hover:bg-gray-100">
                 Join as Mentor
               </a>
             </div>

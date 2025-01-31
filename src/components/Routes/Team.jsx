@@ -7,9 +7,9 @@ import bhandari from '../../assets/Team/BhandariSir.jpeg'
 import prashant from '../../assets/Team/PrashantSir.jpeg'
 import vikash from '../../assets/Team/VikashSir.jpeg'
 import ayushi from '../../assets/Team/ayushi.jpg'
-import muskan from '../../assets/Team/muskan_mam.jpg'
-import me from '../../assets/Meeee.jpg'
-
+// import muskan from '../../assets/Team/muskan_mam.jpg'
+import me from '../../assets/Team/me_2.jpg'
+import muskan from '../../assets/Team/Muskan.webp'
 
 
 function Team() {

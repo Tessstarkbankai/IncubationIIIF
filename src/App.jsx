@@ -31,6 +31,7 @@ import Patents from './components/Routes/Patent'
 import Sucess from './components/Routes/Success'
 import Success from './components/Routes/Success'
 import Videos from './components/Routes/Videos'
+import VideoCards from './components/Routes/VideoCards'
 
 
 
@@ -72,6 +73,8 @@ const App = () => {
           <Route path='/Patents' element={<><Navbar/><Patents /><Footer/></>} />
           <Route path='/Success' element={<><Navbar/><Success/><Footer/></>} />
           <Route path='/Videos' element={<><Navbar/><Videos /><Footer/></>} />
+          {/* <Route path='/VideoCards' element={<><Navbar/><VideoCards /><Footer/></>} /> */}
+
         </Routes>
       </BrowserRouter>
     </div>

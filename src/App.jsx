@@ -74,7 +74,7 @@ const App = () => {
           <Route path='/Success' element={<><Navbar/><Success/><Footer/></>} />
           <Route path='/Videos' element={<><Navbar/><Videos /><Footer/></>} />
           {/* <Route path='/VideoCards' element={<><Navbar/><VideoCards /><Footer/></>} /> */}
-
+          {/* pp */}
         </Routes>
       </BrowserRouter>
     </div>

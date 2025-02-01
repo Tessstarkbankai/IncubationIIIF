@@ -19,7 +19,8 @@ function Photos({image,text}) {
       <div>
       <Dialog>
       <DialogTrigger asChild>
-        <div className="img">
+        <div className="img rounded-lg overflow-hidden border border-gray-200 
+         transition-all duration-300 hover:shadow-2xl hover:scale-105 cursor-pointer">
           <img src={image} className=' object-cover w-[250px] h-[300px]' alt="" />
           <div className="text">
           <p className=' text-lg text-center'>{text}</p>

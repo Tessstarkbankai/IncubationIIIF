@@ -21,6 +21,13 @@ import parth from '../../assets/Event_Photos/pnice.JPG'
 import prize from '../../assets/Event_Photos/prize.JPG'
 import trophy from '../../assets/Event_Photos/trophy.JPG'
 import vr from '../../assets/Event_Photos/vrf.JPG'
+import conference from '../../assets/StartUp_Day/conf.jpg';
+import smart_board from '../../assets/StartUp_Day/smart_board.jpg';
+import imgg from '../../assets/StartUp_Day/IMG_2813.jpg';
+import student from '../../assets/StartUp_Day/student_sitting.jpg';
+
+
+
 
 import Photo from "../Photo";
 import React from 'react'
@@ -32,8 +39,8 @@ function Photos() {
       <SubSection text={"Photos & Videos"} />
       <div className=' sm:px-40 sm:py-24 py-12 flex justify-center  flex-wrap gap-5'>
         <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Inauguration Ceremony of Invertis Innovation & Incubation</h1>
-        <Photo image={chance} text={'Chancellor Sir at CSED'}  />
-        <Photo image={cpodium} text={'Chancellor Sir at Inaugral'}  />
+        <Photo image={chance}   />
+        <Photo image={cpodium} />
         <Photo image={guest}  />
         <Photo image={parthpodium}  />
         {/* <Photo image={parth}  /> */}
@@ -50,6 +57,11 @@ function Photos() {
         <Photo image={creativeStud}  />
         <Photo image={jobseek} />
         <Photo image={jobseekStu} />
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>National Start Up Day</h1>
+        <Photo image={conference} />
+        <Photo image={smart_board} />
+        <Photo image={imgg} />
+        <Photo image={student} />
       </div>
     </>
   )

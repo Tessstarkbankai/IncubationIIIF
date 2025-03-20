@@ -11,7 +11,7 @@ import archana from '../../assets/archanaa.png'
 import ppSingh from '../../assets/ppsingh.jpg'
 import reena from '../../assets/reena.jpg'
 import sstripathi from '../../assets/sstripathi.jpg'
-
+import deanInternational from '../../assets/dean.webp'
 
 
 
@@ -32,7 +32,7 @@ function GoveningCouncil() {
       <Card img={ppSingh} name={"Dr. P. P. Singh"} dept={"Executive Member"}/>
       <Card img={sstripathi} name={"Dr. S.S. Tripathi"} dept={"Executive Member"}/>
       <Card img={reena} name={"Prof. Reena Jaiswal"} dept={"Executive Member"}/>
-      <Card img={archana} name={"Prof. Archana Mehrotra"} dept={"Executive Member"}/>
+      <Card img={deanInternational} name={"Prof. (Dr.) Raju Ch. V. Voleti"} dept={"Executive Member"}/>
       <Card img={Jitnedra} name={"Mr. Jitendra Parashari"} dept={"Executive Member"}/>
 
       </div>

@@ -104,9 +104,9 @@ function Navbar() {
                 <DropdownMenuSubTrigger>Scheme</DropdownMenuSubTrigger>
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
-                    <Link to='/Development'><DropdownMenuItem>Devlopment</DropdownMenuItem></Link>
+                    {/* <Link to='/Development'><DropdownMenuItem>Devlopment</DropdownMenuItem></Link> */}
                     <Link to='/Funding'><DropdownMenuItem>Funding</DropdownMenuItem></Link>
-                    <Link to='/Growth'><DropdownMenuItem>Growth</DropdownMenuItem></Link>
+                    {/* <Link to='/Growth'><DropdownMenuItem>Growth</DropdownMenuItem></Link> */}
                     {/* <Link to='/Target'><DropdownMenuItem>Target</DropdownMenuItem></Link> */}
 
                   </DropdownMenuSubContent>
@@ -181,9 +181,9 @@ function Navbar() {
               <NavigationMenuTrigger className='text-blue-500 font-bold text-lg'>Scheme</NavigationMenuTrigger>
               <NavigationMenuContent className=' text-gray-500 mb-2 flex mt-3 justify-center flex-col border-t border-gray-300'>
 
-                <Link to='/Development'><li className=' list  hover:text-blue-600 mb-2   '>Development</li></Link>
+                {/* <Link to='/Development'><li className=' list  hover:text-blue-600 mb-2   '>Development</li></Link> */}
                 <Link to='/Funding'><li className=' list  hover:text-blue-600 mb-2   '>Funding</li></Link>
-                <Link to='/Growth'><li className=' list  hover:text-blue-600  mb-2  '>Growth</li></Link>
+                {/* <Link to='/Growth'><li className=' list  hover:text-blue-600  mb-2  '>Growth</li></Link> */}
                 {/* <Link to='/Target'><li className='  list  hover:text-blue-600 mb-2  '>Target</li></Link> */}
               </NavigationMenuContent>
             </NavigationMenuItem>

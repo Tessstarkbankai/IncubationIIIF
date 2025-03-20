@@ -25,6 +25,10 @@ import conference from '../../assets/StartUp_Day/conf.jpg';
 import smart_board from '../../assets/StartUp_Day/smart_board.jpg';
 import imgg from '../../assets/StartUp_Day/IMG_2813.jpg';
 import student from '../../assets/StartUp_Day/student_sitting.jpg';
+import paper from '../../assets/Founders Forum/fimgpaper.jpg'
+import main from '../../assets/Founders Forum/fimgmain.jpg'
+import back from '../../assets/Founders Forum/fimgback.jpg'
+import norm from '../../assets/Founders Forum/fimgnorm.jpg'
 
 
 
@@ -38,7 +42,7 @@ function Photos() {
     <>
       <SubSection text={"Photos & Videos"} />
       <div className=' sm:px-40 sm:py-24 py-12 flex justify-center  flex-wrap gap-5'>
-        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Inauguration Ceremony of Invertis Innovation & Incubation</h1>
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Inauguration Ceremony of Invertis Innovation & Incubation (Date:- 16 September 2025)</h1>
         <Photo image={chance}   />
         <Photo image={cpodium} />
         <Photo image={guest}  />
@@ -48,7 +52,7 @@ function Photos() {
         <Photo image={iside}  />
         <Photo image={vr}  />
         <Photo image={machine}  />
-        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Shark Tank Invertis</h1>
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Shark Tank Invertis (15 October 2025)</h1>
         <Photo image={holland} />
         <Photo image={hollandStu} />
         <Photo image={ipr}/>
@@ -57,11 +61,16 @@ function Photos() {
         <Photo image={creativeStud}  />
         <Photo image={jobseek} />
         <Photo image={jobseekStu} />
-        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>National Start Up Day</h1>
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>National Start Up Day (16 January 2025)</h1>
         <Photo image={conference} />
         <Photo image={smart_board} />
         <Photo image={imgg} />
         <Photo image={student} />
+        <h1 className='text-center sm:text-left inline w-full font-bold text-xl'>Founder's Forum(10 feburary 2025)</h1>
+        {/* <Photo image={paper}/> */}
+        <Photo image={main}/>
+        <Photo image={back}/>
+        <Photo image={norm}/>
       </div>
     </>
   )

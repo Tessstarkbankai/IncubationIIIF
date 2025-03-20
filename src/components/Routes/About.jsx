@@ -22,7 +22,7 @@ function About() {
           <h2 className=' justify-text text-lg text-gray-600' data-aos="fade-left" data-aos-easing="linear"
             data-aos-duration="600">Welcome to Invertis Innovation and Incubation <br />
 
-            At Invertis Innovation and Incubation Foundation (IIIF), we believe that great ideas deserve to thrive. Our mission is to foster a dynamic ecosystem where innovators, entrepreneurs, and visionaries can turn their groundbreaking concepts into reality. Whether you're a budding entrepreneur, a seasoned innovator, or an organization with a vision, we’re here to provide you with the support, infrastructure, and expertise needed to scale new heights.
+            At Invertis Innovation and Incubation (III), we believe that great ideas deserve to thrive. Our mission is to foster a dynamic ecosystem where innovators, entrepreneurs, and visionaries can turn their groundbreaking concepts into reality. Whether you're a budding entrepreneur, a seasoned innovator, or an organization with a vision, we’re here to provide you with the support, infrastructure, and expertise needed to scale new heights.
             
             With cutting-edge facilities, expert mentorship, and a collaborative environment, we specialize in bridging the gap between ideation and market success. From IT consulting and product development to Smart Manufacturing, HealthTech, and Sustainable Solutions, we are committed to solving real-world problems with creativity and precision.
             
@@ -35,7 +35,7 @@ function About() {
           <h2 className= ' justify-text text-lg  text-gray-600' data-aos="zoom-in" data-aos-easing="linear"
             data-aos-duration="600">Welcome to Invertis Innovation and Incubation <br />
 
-            At Invertis Innovation and Incubation Foundation (IIIF), we believe that great ideas deserve to thrive. Our mission is to foster a dynamic ecosystem where innovators, entrepreneurs, and visionaries can turn their groundbreaking concepts into reality. Whether you're a budding entrepreneur, a seasoned innovator, or an organization with a vision, we’re here to provide you with the support, infrastructure, and expertise needed to scale new heights.
+            At Invertis Innovation and Incubation (III), we believe that great ideas deserve to thrive. Our mission is to foster a dynamic ecosystem where innovators, entrepreneurs, and visionaries can turn their groundbreaking concepts into reality. Whether you're a budding entrepreneur, a seasoned innovator, or an organization with a vision, we’re here to provide you with the support, infrastructure, and expertise needed to scale new heights.
             
             With cutting-edge facilities, expert mentorship, and a collaborative environment, we specialize in bridging the gap between ideation and market success. From IT consulting and product development to Smart Manufacturing, HealthTech, and Sustainable Solutions, we are committed to solving real-world problems with creativity and precision.
             

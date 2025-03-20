@@ -43,7 +43,7 @@ function Team() {
       <Card img={arnav} name={"Arnav"} dept={"Event Deam"}/>
       <Card img={ansh} name={"Ansh"} dept={"Tech Team"}/>
       <Card img={atul} name={"Atul"} dept={"Tech Team"}/>
-      <Card img={shivam} name={"Mrs. Purnima Awasthi"} dept={"Tech Team"}/>
+      {/* <Card img={shivam} name={"Mrs. Purnima Awasthi"} dept={"Tech Team"}/> */}
       {/* <Card img={me} name={"Mr. Ayush Rai"} dept={"Convenor, Student Committee & Developer"}/> */}
       {/* ayush rai */}
       </div>

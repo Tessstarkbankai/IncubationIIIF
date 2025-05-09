@@ -15,7 +15,7 @@ function Footer() {
           <img src="./incub-logo.png" width={'300px'} className=' mt-[40px]' alt="" />
           <div className=' flex gap-4 absolute left-5'>
             <div className='p-2 bg-yellow-400 rounded-full'><FaPhoneAlt /></div>
-            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>7217011248,7217011240</p>
+            <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'>72170111111,7217011240</p>
             <div className='p-2 bg-yellow-400 rounded-full'><IoMdMail /></div>
             <p className=' mt-1 text-md hover:text-[#ff3130] font-semibold scale-100 transition duration-300 hover:scale-110'> invertis.incubation@invertis.org</p>
           </div>

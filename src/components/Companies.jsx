@@ -8,11 +8,13 @@ import ansys from '../assets/PatnerImage/ansys.png'
 import dassault from '../assets/PatnerImage/dassault.png'
 import nidm from '../assets/PatnerImage/nidm.jpeg'
 import dcs from '../assets/PatnerImage/dcs.png'
+import shape from '../assets/PatnerImage/shapemyskils.jpg'
 import vaave from '../assets/PatnerImage/vaave.png'
 import jards from '../assets/PatnerImage/jards.jpeg'
 import mastercam from '../assets/PatnerImage/mastercam.png'
 import linkedin from '../assets/PatnerImage/linkedin.png'
 import ptc from '../assets/PatnerImage/ptc.png'
+import eduskills from '../assets/PatnerImage/eduskills.jpg'
 import yif from '../assets/PatnerImage/yif.png'
 
 function Companies() {
@@ -41,7 +43,10 @@ function Companies() {
           <img src={nidm} alt="" />
         </div>
         <div className=' w-[250px] ml-[70px]'>
-          <img src={dcs} alt="" />
+          <img src={shape} alt="" />
+        </div>
+        <div className=' w-[250px] ml-[70px]'>
+          <img src={eduskills} alt="" />
         </div>
         <div className=' w-[250px] ml-[70px]'>
           <img src={vaave} alt="" />

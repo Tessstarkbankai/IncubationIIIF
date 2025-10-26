@@ -9,7 +9,7 @@ function EventAdd({image,text,heading}) {
           <img className='justify-center h-[380px]' src={image} alt="H" />
         </div>
         <div className="text sm:w-[700px] text-lg ">
-          <h1 className='text-center sm:text-3xl font-bold text-gray-500 mb-8'>{heading}</h1>
+          <h1 className=' hover:text-blue-300 text-center sm:text-3xl font-bold text-gray-500 mb-8'>{heading}</h1>
           <h1 className=' text-center sm:text-xl' style={{textAlign: "justify"}}>{text}</h1>
         </div>
       </div>
